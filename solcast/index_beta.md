@@ -1,4 +1,4 @@
-# Documentation du plugin SolCast
+# Documentation du plugin SolCast (version Béta)
 
 ## Présentation
 Ce plugin permet de récupérer les données de SolCast afin de disposer des prévisions de production photovoltaïque (jusqu'à J+4) dans Jeedom
