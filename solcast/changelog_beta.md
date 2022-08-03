@@ -1,9 +1,17 @@
-# Changelog plugin template
+# Changelog du plugin SolCast
 
 >**IMPORTANT**
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 03/0/2022
+# Version Stable
+Il n'y a pas de version stable pour le moment
+
+<hr/>
+
+# Version Béta
+
+## 03/08/2022
 
 - Version initiale
+
