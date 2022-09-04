@@ -5,12 +5,12 @@ Ce plugin permet de récupérer les données de SOLCAST afin de disposer des pr�
 **Il est nécéssaire de créer un compte sur SOLCAST**
 
 ## Création d'un compte sur le site SOLCAST
-Une fois votre compte crée sur [SOLCAST](solcast.com) il faudra renseigner votre "Rooftop" et le site vous fournira un lien et une clef API correspondant à votre installation photovoltaïque. Il est obligatoire de paramétrer votre site SolCast dans plugin avec ces 2 informations (ressource_id et api_key)
+Une fois votre compte créé sur [SOLCAST](solcast.com) il faudra renseigner votre "Rooftop" et le site vous fournira un lien et une clef API correspondant à votre installation photovoltaïque. Il est obligatoire de paramétrer votre site SolCast dans plugin avec ces 2 informations (ressource_id et api_key)
 
 Dans le détail :
 1. Créer votre compte de type "My home PV system only" sur [SOLCAST home PV](https://toolkit.solcast.com.au/register/hobbyist)
-2. Créer votre "Rooftop" c'est à dire indiquer les données techniques de vos panneaux photovoltaïque (Lattitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
-    - Lattitude et Longitude au format x.y. Exemple pour la tour Eiffel : Lattitude : 48.85823 / Longitude : 2.29457
+2. Créer votre "Rooftop" c'est à dire indiquer les données techniques de vos panneaux photovoltaïque (Latitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
+    - Latitude et Longitude au format x.y. Exemple pour la tour Eiffel : Latitude : 48.85823 / Longitude : 2.29457
     - AC Capacity (inverters) à exprimer en kW : indiquer la puissance maximum que peut produire votre installation
     - DC Capacity (modules) à exprimer en kW : indiquer la puissance crête théorique de votre installation
     - Azimuth : Orientation de vos panneaux entre -180 et 180 sachant que 0 est le Nord et 180 le Sud et qu'il faudra indiquer un nombre négatif si les panneaux sont orientés vers l'EST et positif si les panneaux sont orientés vers l'OUEST. Exemple : -90 pour EST et 90 pour OUEST
@@ -26,11 +26,11 @@ Dans le détail :
 ![Création](images/rooftop-site_creation.png)
 
 ## Création d'un site dans le plugin SolCast
-1. Créer un nouveau site coté plugin
+1. Créer un nouveau site côté plugin
 2. Renseigner :
     - Ressource ID : Information issue du bloc précédent à l'étape 3
     - API Key : Information issue du bloc précédent à l'étape 4
-    - Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutillement
+    - Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
 
 ## Commandes disponibles dans le plugin SolCast et principe de fonctionnement
 # Commandes pricipales
@@ -42,13 +42,13 @@ Le plugin raffraichi les informations chaque heure et 45 minutes (Exemple : 10h4
 
 Lors du cron de 0h45 ces commandes sont remises à zéro
 
-**Important** : Les commandes antérieures à l'heure du raffraichissement ne sont pas mises à jour (elles ne sont plus communiqué par l'API) c'est à dire que lors du cron de 10h45, la commande "J0 entre 11h et 12h" et les suivantes sont mises à jour mais la commande "J0 entre 10h et 11h" et les précédentes conserveront leurs valeurs
+**Important** : Les commandes antérieures à l'heure du rafraichissement ne sont pas mises à jour (elles ne sont plus communiquées par l'API) c'est à dire que lors du cron de 10h45, la commande "J0 entre 11h et 12h" et les suivantes sont mises à jour mais la commande "J0 entre 10h et 11h" et les précédentes conserveront leurs valeurs
 
 # Commandes secondaires
 - Des commandes totalisant le nombre de Wh pour chaque jour
 
 
 ## Utilisation et tips
-L'utilisation principale est de connaitre la quantité de Watts qui sera produit pour chaque tranche horaire afin de prévoir de faire fonctioonner des équipements au bon moment (chauffe-eau, pompe, etc ...)
+L'utilisation principale est de connaitre la quantité de Watts qui sera produite pour chaque tranche horaire afin de prévoir de faire fonctionner des équipements au bon moment (chauffe-eau, pompe, etc ...)
 
 50 requêtes par jour sont possibles sur l'API. Il est possible de créer un second rooftop avec des paramètres un peu différents pour voir si les prévisions se rapprochent de la réalité (inclinaison, puissances AC et DC).
