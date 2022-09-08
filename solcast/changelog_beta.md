@@ -13,7 +13,7 @@ Il n'y a pas de version stable pour le moment
 
 ## 08/09/2022
 - Ajout de la commande "Prévision heure suivante"
-- Suppression des paramètres globaux, inutiles
+- Suppression des paramètres globaux
 
 ## 03/08/2022
 - Version initiale
