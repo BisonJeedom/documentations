@@ -12,7 +12,10 @@ Il n'y a pas de version stable pour le moment
 # Version Béta
 
 ## 08/09/2022
-- Ajout de la commande "Prévision heure suivante"
+- Ajout de 3 commandes Top "valeur" et "heure de fin" pour connaitre les meilleurs tranches de prévision
+
+## 08/09/2022
+- Ajout d'une commande "Prévision heure suivante"
 - Suppression des paramètres globaux
 
 ## 03/08/2022
