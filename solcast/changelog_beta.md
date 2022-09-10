@@ -11,7 +11,7 @@ Il n'y a pas de version stable pour le moment
 
 # Version Béta
 
-## 08/09/2022
+## 10/09/2022
 - Ajout de 3 commandes Top "valeur" et "heure de fin" pour connaitre les meilleurs tranches de prévision
 
 ## 08/09/2022
