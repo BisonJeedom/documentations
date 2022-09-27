@@ -11,6 +11,9 @@ Il n'y a pas de version stable pour le moment
 
 # Version Béta
 
+## 27/09/2022
+- Suppression du décalage empirique de +1h suite aux retours de rennais35000
+
 ## 10/09/2022
 - Ajout de 3 commandes Top "valeur" et "heure de fin" pour connaitre les meilleurs tranches de prévision
 
