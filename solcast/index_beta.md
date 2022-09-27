@@ -33,7 +33,7 @@ Dans le détail :
     - Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
 
 ## Commandes disponibles dans le plugin SolCast et principe de fonctionnement
-# Commandes pricipales
+# Commandes principales
 La quantité de commandes dépend du nombre de jours de prévision choisi dans le plugin  
 Les commandes issues de SOLCAST sont les commandes de ce type : "Jour 0 entre 10h et 11h"  
 Ces commandes contiennent la quantité de Wh prévue à la fin de la tranche horaire
