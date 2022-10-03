@@ -5,7 +5,7 @@ Ce plugin permet de récupérer les données de SOLCAST afin de disposer des pr�
 **Il est nécéssaire de créer un compte sur SOLCAST**
 
 ## Création d'un compte sur le site SOLCAST
-Une fois votre compte créé sur [SOLCAST](solcast.com) il faudra renseigner votre "Rooftop" et le site vous fournira un lien et une clef API correspondant à votre installation photovoltaïque. Il est obligatoire de paramétrer votre site SolCast dans plugin avec ces 2 informations (ressource_id et api_key)
+Une fois votre compte créé sur [SOLCAST](https://solcast.com) il faudra renseigner votre "Rooftop" et le site vous fournira un lien et une clef API correspondant à votre installation photovoltaïque. Il est obligatoire de paramétrer votre site SolCast dans plugin avec ces 2 informations (ressource_id et api_key)
 
 Dans le détail :
 1. Créer votre compte de type "My home PV system only" sur [SOLCAST home PV](https://toolkit.solcast.com.au/register/hobbyist)
