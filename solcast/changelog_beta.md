@@ -12,7 +12,8 @@ Il n'y a pas de version stable pour le moment
 # Version Béta
 
 ## 04/10/2022
-- Ajout de commandes pour indiquer la prévision d'énergie totale à partir de J+1 dans le cas le plus favorable (moins de nuages) et le moins favorable (plus de nuages)
+- Ajout de commandes pour indiquer la prévision d'énergie totale dans le cas le plus favorable (moins de nuages) et le moins favorable (plus de nuages).
+Ces commandes ne seront disponibles qu'à partir de J+1 donc avec un "Nombre de jour de prévision" paramétré à 2 minimum sur l'équipement 
 
 ## 27/09/2022
 - Suppression du décalage empirique de +1h suite aux retours de rennais35000
