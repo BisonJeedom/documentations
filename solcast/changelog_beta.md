@@ -11,6 +11,9 @@ Il n'y a pas de version stable pour le moment
 
 # Version Béta
 
+## 04/10/2022
+- Ajout de commandes pour indiquer la prévision d'énergie totale à partir de J+1 dans le cas le plus favorable (moins de nuages) et le moins favorable (plus de nuages)
+
 ## 27/09/2022
 - Suppression du décalage empirique de +1h suite aux retours de rennais35000
 
