@@ -47,7 +47,7 @@ Lors du cron de 0h45 ces commandes sont remises à zéro
 # Commandes secondaires
 - Une commande indiquant la prévision sur l'heure suivante : "Prévision heure suivante"
 - Des commandes totalisant la quantité de Wh pour chaque jour : "Prévision J+x"
-- Des commandes totalisant la quantité de Wh pour chaque jour dans les cas où il y a plus ou moins de nuages que prévu : "Prévision J+x avec moins de nuages" / "Prévision J+x avec plus de nuages"
+- Des commandes totalisant la quantité de Wh pour chaque jour dans les cas où il y a plus ou moins de nuages que prévu : "Prévision J+x avec moins de nuages" / "Prévision J+x avec plus de nuages" (à partir de J+1)
 - Des commandes indiquant les 3 Tops de la journée avec les valeurs et les heures de fin : "Top x valeur" / "Top x heure de fin"
 
 
