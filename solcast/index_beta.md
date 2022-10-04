@@ -45,7 +45,10 @@ Lors du cron de 0h45 ces commandes sont remises à zéro
 **Important** : Les commandes antérieures à l'heure du rafraichissement ne sont pas mises à jour (elles ne sont plus communiquées par l'API) c'est à dire que lors du cron de 10h45, la commande "J0 entre 11h et 12h" et les suivantes sont mises à jour mais la commande "J0 entre 10h et 11h" et les précédentes conserveront leurs valeurs
 
 # Commandes secondaires
-- Des commandes totalisant le nombre de Wh pour chaque jour
+- Une commande indiquant la prévision sur l'heure suivante : "Prévision heure suivante"
+- Des commandes totalisant la quantité de Wh pour chaque jour : "Prévision J+x"
+- Des commandes totalisant la quantité de Wh pour chaque jour dans les cas où il y a plus ou moins de nuages que prévu : "Prévision J+x avec moins de nuages" / "Prévision J+x avec plus de nuages"
+- Des commandes indiquant les 3 Tops de la journée avec les valeurs et les heures de fin : "Top x valeur" / "Top x heure de fin"
 
 
 ## Utilisation et tips
