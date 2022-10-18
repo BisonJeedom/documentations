@@ -12,7 +12,7 @@ Il n'y a pas de version stable pour le moment
 # Version Béta
 
 ## 18/10/2022
-- Compatibilité Jeedom 4.3 pour prendre en compte l'affichage de la valeur d'une commande lors de l'édition d'un équipement
+- Compatibilité Jeedom 4.3 pour afficher directement la valeur d'une commande lors de l'édition d'un équipement
 
 ## 13/10/2022
 - Correction d'un bug lors de la création d'un équipement (une commande crée à tort)
