@@ -17,9 +17,9 @@ Dans le détail :
       > TIPS : vérifier l'orientation de votre toit sur https://www.geoportail.gouv.fr/carte en utilisant "Outils > Mesures > Mesurer un azimut" (tracer un trait en suivant le bord du toit) puis retirer 180 au chiffre obtenu
     - Tilt (Horizontal) : Inclinaison des panneaux par rapport à l'horizontale
     - Efficiency factor : Le pourcentage d'efficacité de votre installation
-3. Ouvrir [Live and Forecast](https://toolkit.solcast.com.au/live-forecast) puis cliquer sur "Forecasts". Vous verrez une URL de connexion dans le champs "API"
-    - Exemple : "ht<span>tp://</span>api.solcast.com.au/rooftop_sites/**xxxx-xxxx-xxxx-xxxx**/forecasts?format=json"
-    - Notez l'information en gras, elle sera à saisir dans le paramètre **Ressource ID** du plugin
+3. Ouvrir votre Rooftop et vous le résumé de votre site à droite :    
+    - Copier l'information Ressource Id, elle sera à saisir dans le paramètre **Ressource ID** du plugin
+
 4. Dans le menu en haut à droite, cliquer sur "Your API Key" puis sur "Show API Key"
     - Noter votre clef API, elle sera à saisir dans le paramètre **API Key** du plugin
 
