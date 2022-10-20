@@ -17,14 +17,16 @@ Dans le détail :
       > TIPS : vérifier l'orientation de votre toit sur https://www.geoportail.gouv.fr/carte en utilisant "Outils > Mesures > Mesurer un azimut" (tracer un trait en suivant le bord du toit) puis retirer 180 au chiffre obtenu
     - Tilt (Horizontal) : Inclinaison des panneaux par rapport à l'horizontale
     - Efficiency factor : Le pourcentage d'efficacité de votre installation
+![Création](images/rooftop-site_creation.png)
+
 3. Ouvrir votre Rooftop et vous le résumé de votre site à droite :    
     - Copier l'information Ressource Id, elle sera à saisir dans le paramètre **Ressource ID** du plugin
-![Création](images/SolCast Site Summary.png)
+![Création](images/SolCast_Site_Summary.png)
 
 4. Dans le menu en haut à droite, cliquer sur "Your API Key" puis sur "Show API Key"
     - Noter votre clef API, elle sera à saisir dans le paramètre **API Key** du plugin
+![Création](images/SolCast_API_Key.png)
 
-![Création](images/rooftop-site_creation.png)
 
 ## Création d'un site dans le plugin SolCast
 1. Créer un nouveau site côté plugin
