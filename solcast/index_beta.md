@@ -50,11 +50,19 @@ Lors du cron de 0h45 ces commandes sont remises à zéro
 
 **Important** : Les commandes antérieures à l'heure du rafraichissement ne sont pas mises à jour (elles ne sont plus communiquées par l'API) c'est à dire que lors du cron de 10h45, la commande "J0 entre 11h et 12h" et les suivantes sont mises à jour mais la commande "J0 entre 10h et 11h" et les précédentes conserveront leurs valeurs
 
+Il est également possible de choisir le début et la fin de la prévision ainsi que le niveau de détail des commandes.
+
+Si vous choisissez "Minimal" qui est l'affichage par défaut, les commandes principales ne seront générées et visible que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
+
 # Commandes secondaires
 - Une commande indiquant la prévision sur l'heure suivante : "Prévision heure suivante"
 - Des commandes totalisant la quantité de Wh pour chaque jour : "Prévision J+x"
 - Des commandes totalisant la quantité de Wh pour chaque jour dans les cas où il y a plus ou moins de nuages que prévu : "Prévision J+x avec moins de nuages" / "Prévision J+x avec plus de nuages" (à partir de J+1)
 - Des commandes indiquant les 3 Tops de la journée avec les valeurs et les heures de fin : "Top x valeur" / "Top x heure de fin"
+- 2 commandes "Prévision heure suivante (comparaison)" et "Prévision fin de journée (comparaison)" qui permettent de comparer les prévisions à la production réelle sur une vue car ces commandes sont décalées dans le temps pour donner la valeur au même moment que la valeur de production
+
+Exemple de vue : 
+![Création](images/SolCast_vue.png)
 
 
 ## Utilisation et tips
