@@ -19,6 +19,7 @@ Dans le détail :
     - Efficiency factor : Le pourcentage d'efficacité de votre installation
 3. Ouvrir votre Rooftop et vous le résumé de votre site à droite :    
     - Copier l'information Ressource Id, elle sera à saisir dans le paramètre **Ressource ID** du plugin
+![Création](images/SolCast Site Summary.png)
 
 4. Dans le menu en haut à droite, cliquer sur "Your API Key" puis sur "Show API Key"
     - Noter votre clef API, elle sera à saisir dans le paramètre **API Key** du plugin
