@@ -14,10 +14,10 @@ Dans le détail :
     - AC Capacity (inverters) à exprimer en kW : indiquer la puissance maximum que peut produire votre installation
     - DC Capacity (modules) à exprimer en kW : indiquer la puissance crête théorique de votre installation
     - Azimuth : Orientation de vos panneaux entre -180 et 180 sachant que 0 est le Nord et 180 le Sud et qu'il faudra indiquer un nombre négatif si les panneaux sont orientés vers l'EST et positif si les panneaux sont orientés vers l'OUEST. Exemple : -90 pour EST et 90 pour OUEST
+![Création](images/SolCast_Boussole.png)  
       > TIPS : vérifier l'orientation de votre toit sur https://www.geoportail.gouv.fr/carte en utilisant "Outils > Mesures > Mesurer un azimut" (tracer un trait en suivant le bord du toit). Si le chiffre obtenu est X alors : 
       > - Si les panneaux sont orientés vers l’EST alors indiquer : 0-X
       > - Si les panneaux sont orientés vers l’OUEST alors indiquer : 360-X
-![Création](images/SolCast_Boussole.png)  
     - Tilt (Horizontal) : Inclinaison des panneaux par rapport à l'horizontale
     - Efficiency factor : Le pourcentage d'efficacité de votre installation
 ![Création](images/rooftop-site_creation.png)
