@@ -5,11 +5,16 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 # Version Stable
-Il n'y a pas de version stable pour le moment
+Voir le changelog de la version stable ici : [Changelog Stable](https://github.com/BisonJeedom/documentations/blob/main/solcast/changelog_stable.md)
 
 <hr/>
 
 # Version Béta
+
+## 29/10/2022
+- Mise en place d’un template qui est activé par défaut pour les nouveaux équipements mais que vous devrez activer dans les paramètres pour les existants
+- Ajout d’un nouveau paramètre spécifique pour renseigner son index de production
+- Ajout d’un cron chaque heure à H + 5mn pour calculer la production
 
 ## 18/10/2022
 - Compatibilité Jeedom 4.3 pour afficher directement la valeur d'une commande lors de l'édition d'un équipement
