@@ -11,6 +11,10 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 30/10/2022
+- Evolution du template pour ajouter la production totale de la journée et corriger un problème si "Nombre de jour de prévision" est de 1
+- Correction d'un problème sur la production journalière qui ne se mettait pas à 0
+
 ## 29/10/2022
 - Mise en place d’un template qui est activé par défaut pour les nouveaux équipements mais que vous devrez activer dans les paramètres pour les existants
 - Ajout d’un nouveau paramètre spécifique pour renseigner son index de production
