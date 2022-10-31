@@ -11,6 +11,11 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 31/10/2022
+- Template : Correction du tableau car les données de production n'était pas affichées dans certains cas
+- Template : Introduction d'une courbe de la prévision à 6h. Celle-ci ne bougera pas contrairement à la prévision évolutive
+- Template : Introduction d'un indice de fiabilité de la prévision J+1 (EN TEST)
+
 ## 30/10/2022
 - Evolution du template pour ajouter la production totale de la journée et corriger un problème si "Nombre de jour de prévision" est de 1
 - Correction d'un problème sur la production journalière qui ne se mettait pas à 0
