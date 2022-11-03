@@ -15,7 +15,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 - Template : Correction de la courbe de prévision à 6h qui ne s'actualisait pas
 - Template : Ajout d'une colorisation des heures pour les 3 tops de la journée
 - Configuration : Amélioration de la page de configuration et précision sur l'attendu de "Commande index totale de production"
-- Core : Avertissement dans les logs et dans le centre de message si le plugin detecte une erreur dans "Commande index totale de production"
+- Core : Avertissement dans les logs et dans le centre de message si le plugin détecte une erreur dans "Commande index totale de production"
 
 ## 31/10/2022
 - Template : Correction du tableau car les données de production n'était pas affichées dans certains cas
