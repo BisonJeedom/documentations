@@ -33,10 +33,26 @@ Dans le détail :
 
 ## Création d'un site dans le plugin SolCast
 1. Créer un nouveau site côté plugin
-2. Renseigner :
+2. Renseigner obligatoirement :
     - Ressource ID : Information issue du bloc précédent à l'étape 3
     - API Key : Information issue du bloc précédent à l'étape 4
-    - Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
+3. (Optionnel) Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
+4. (Optionnel) Configurer au besoin l'heure de "Début de la prévision" et "Fin de la prévision" pour limiter le nombre de commandes
+5. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
+6. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production".
+
+**Important** Cette commande correspond à l'index total qui n'est jamais remi à zéro. C'est le plugin qui gère la production qui sera affichée pour la journée
+7. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commande d'informations
+
+Exemple :
+
+![Création](images/SolCast_template.png)
+
+## Cron
+
+Le plugin génère 2 cron :
+- Le premier à chaque heure et 45 minutes pour mettre à jour les commandes en fonction des prévisions
+- Le deuxieme à chaque et 5 minutes pour mettre à jour les données de production si vous l'avez renseigné
 
 ## Commandes disponibles dans le plugin SolCast et principe de fonctionnement
 # Commandes principales
@@ -49,10 +65,6 @@ Le plugin raffraichi les informations chaque heure et 45 minutes (Exemple : 10h4
 Lors du cron de 0h45 ces commandes sont remises à zéro
 
 **Important** : Les commandes antérieures à l'heure du rafraichissement ne sont pas mises à jour (elles ne sont plus communiquées par l'API) c'est à dire que lors du cron de 10h45, la commande "J0 entre 11h et 12h" et les suivantes sont mises à jour mais la commande "J0 entre 10h et 11h" et les précédentes conserveront leurs valeurs
-
-Il est également possible de choisir le début et la fin de la prévision ainsi que le niveau de détail des commandes.
-
-Si vous choisissez "Minimal" qui est l'affichage par défaut, les commandes principales ne seront générées et visible que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
 
 # Commandes secondaires
 - Une commande indiquant la prévision sur l'heure suivante : "Prévision heure suivante"
