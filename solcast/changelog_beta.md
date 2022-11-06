@@ -14,7 +14,6 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 ## 06/11/2022
 - Template : Amélioration pour adapter le graphique à la taille de la tuile
 - Template : Amélioration pour afficher la tranche horaire complète dans le tableau (Ex : 10-11 à la place de 11)
-
 - Template : Correction du positionnement de la tranche horaire en cours
 - Template : Correction des labels (W -> Wh)
 
