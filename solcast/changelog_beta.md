@@ -12,9 +12,11 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 # Version Béta
 
 ## 06/11/2022
+- Template : Amélioration pour adapter le graphique à la taille de la tuile
+- Template : Amélioration pour afficher la tranche horaire complète dans le tableau (Ex : 10-11 à la place de 11)
+
 - Template : Correction du positionnement de la tranche horaire en cours
-- Template : Correction typologie (W -> Wh)
-- Template : Modification des heures pour afficher la tranche horaire complète (Ex : 10-11 à la place de 11)
+- Template : Correction des labels (W -> Wh)
 
 ## 03/11/2022
 - Template : Correction de la courbe de prévision à 6h qui ne s'actualisait pas
