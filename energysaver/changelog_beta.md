@@ -1,4 +1,4 @@
-# Changelog du plugin SolCast
+# Changelog du plugin Energy Saver
 
 >**IMPORTANT**
 >
