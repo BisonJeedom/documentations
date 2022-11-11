@@ -11,6 +11,10 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 11/11/2022
+- Template : Historisation des valeurs de prévision et production journalière pour permettre un affichage de courbe sur le mois en cours. Apparition de sliders sur le graphique
+- Core : En cas valeur négative de la production, elle sera ramenée à zéro
+
 ## 06/11/2022
 - Template : Amélioration pour adapter le graphique à la taille de la tuile
 - Template : Amélioration pour afficher la tranche horaire complète dans le tableau (Ex : 10-11 à la place de 11)
