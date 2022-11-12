@@ -11,6 +11,9 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 12/11/2022
+- Template : Ajout de la vue à l'année avec un graph en baton
+
 ## 11/11/2022
 - Template : Historisation des valeurs de prévision et production journalière pour permettre un affichage de courbes sur le mois en cours. Apparition de sliders sur le graphique
 - Core : En cas valeur négative de la production, elle sera ramenée à zéro
