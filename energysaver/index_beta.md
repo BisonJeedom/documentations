@@ -40,6 +40,6 @@ Un équipement principal est crée pour supporter l'affichage d'un template donc
 **Important** : Si un évènement venait à rallumer un équipement durant la période planifiée (scénario, action manuelle, action d'un autre plugin, etc...), Energy Saver ne l'éteindra pas !
 
 ## Evolutions envisagées
-- Option pour permettre d'éteindre un équipement qui venait à se rallumer dans la période planifiée
+- Option pour permettre d'éteindre un équipement qui viendrait à se rallumer dans la période planifiée
 - Arrêt et démarrage des équipements par déclencheur en plus de la programmation horaire
 - Ajout de 2 plages de planification pour en avoir 3 différentes au total
