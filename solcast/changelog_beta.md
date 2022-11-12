@@ -13,6 +13,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 ## 12/11/2022
 - Template : Ajout de la vue à l'année avec un graph en baton
+- Template : Correction du label des abscisses "Mois" -> "Jour" sur le graphique "Mois"
 
 ## 11/11/2022
 - Template : Historisation des valeurs de prévision et production journalière pour permettre un affichage de courbes sur le mois en cours. Apparition de sliders sur le graphique
