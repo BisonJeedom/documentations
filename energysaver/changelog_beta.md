@@ -23,5 +23,7 @@ Les équipements déjà pris en charges seront basculés dans la planification n
 
 La consommation et la durée de fonctionnement sur les 30 derniers jours sont calculés par défaut à partir des horaires de la planification n°1 mais changeront en fonction de la planification selectionnées
 
+- Mise à jour de la documentation et ajout d'images
+
 ## 10/11/2022
 - Version initiale
