@@ -13,7 +13,8 @@ Pas de version stable pour le moment
 
 ## 17/11/2022
 Nouveautés :
-- Mode déclencheur pour les 3 planifications
+- Mode déclencheur pour les 3 planifications  
+
 Dans ce mode les horaires paramétrées ne sont plus pris en compte et le déclenchement doit être réalisé par de nouvelles commandes dsponible sur l'équipement "Energy Saver"  
 Exemple : #[Test][Energy Saver][Planification 1 Off]# et #[Test][Energy Saver][Planification 1 On]#
 
