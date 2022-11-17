@@ -50,4 +50,4 @@ Un équipement principal est crée pour supporter l'affichage d'un template donc
 ![Création](images/EnergySaver_Dashboard.png)
 
 ## Evolutions envisagées
-- Arrêt et démarrage des équipements par déclencheur en plus de la programmation horaire
+
