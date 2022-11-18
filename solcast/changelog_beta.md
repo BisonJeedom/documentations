@@ -11,6 +11,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 18/11/2022
+Nouveautés :
+- Ajout des données de prévision à 6h sur le graphique "Mois" et "Année"
+- Modification du tableau et du graphique pour que les cases du tableau soient alignées avec les données du graphique "Aujourd'hui"
+
+Note : Sur le graphique "Année" la "Prévision à 6h" est désactivée par défaut, il faut cliquer dessus pour l'activer et la voir
+
 ## 12/11/2022
 - Template : Ajout de la vue à l'année avec un graph en baton
 - Template : Correction du label des abscisses "Mois" -> "Jour" sur le graphique "Mois"
