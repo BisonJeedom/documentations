@@ -16,6 +16,9 @@ Nouveautés :
 - Ajout des données de prévision à 6h sur le graphique "Mois" et "Année"
 - Modification du tableau et du graphique pour que les cases du tableau soient alignées avec les données du graphique "Aujourd'hui"
 
+Correction :
+- Les couleurs des courbes sont les mêmes quelque soit la vue
+
 Note : Sur le graphique "Année" la "Prévision à 6h" est désactivée par défaut, il faut cliquer dessus pour l'activer et la voir
 
 ## 12/11/2022
