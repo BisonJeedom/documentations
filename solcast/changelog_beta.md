@@ -11,13 +11,21 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 19/11/2022
+Nouveautés :
+- Visualisation de l'ensemble des valeurs (Prévision, Prévision à 6h et Production) lors du clic sur l'un de ces éléments (merci @jpty)
+
+Corrections :
+- Déplacement du bouton d'export qui n'était plus cliquable à cause des zones de slide
+- Modification de l'icône pour lui redonner la taille attendu par Jeedom
+
 ## 18/11/2022
 Nouveautés :
 - Ajout des données de prévision à 6h sur le graphique "Mois" et "Année"
 - Modification du tableau et du graphique pour que les cases du tableau soient alignées avec les données du graphique "Aujourd'hui"
 
-Correction :
-- Les couleurs des courbes sont les mêmes quelque soit la vue
+Corrections :
+- Les couleurs des courbes sont les mêmes quelle que soit la vue
 
 Note : Sur le graphique "Année" la "Prévision à 6h" est désactivée par défaut, il faut cliquer dessus pour l'activer et la voir
 
