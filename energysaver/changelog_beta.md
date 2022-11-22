@@ -11,6 +11,14 @@ Pas de version stable pour le moment
 
 # Version Béta
 
+## 22/11/2022
+Nouveautés :
+- Ajout Etat dans les commandes (compatibilité Jeedom > 4.3.0)
+
+Corrections :
+- Nombre d'équipement pris en charge incorrects
+- Non affichage de la liste des équipements si la version de Jeedom est inférieur à 4.3.1 (gestion de l'erreur dans le calcul des éléments sur 30 jours)
+
 ## 17/11/2022
 Nouveautés :
 - Mode déclencheur pour les 3 planifications  
