@@ -11,6 +11,17 @@ Pas de version stable pour le moment
 
 # Version Béta
 
+## 23/11/2022
+Nouveautés / Evolutions :
+- Prise en charge des versions inférieures à Jeedom 4.3.1 dans le calcul des données (merci @Phpvarious)
+- Ajout d'une pause de 1 seconde entre chaque éxécution de commandes pour éviter les ratés dans la transmission des ordres
+- Ajout de l'informations indiquant s'il s'agit d'un déclencheur dans la planification
+
+Corrections : 
+- Modification des couleurs dans la "Liste des équipements compatibles" pour une meilleurs visibilité dans les 2 thèmes de Jeedom
+
+Note : Ajout temporaire de logs en debug pour recherche d'un problème non résolu
+
 ## 22/11/2022
 Nouveautés :
 - Ajout Etat dans les commandes (compatibilité Jeedom > 4.3.0)
