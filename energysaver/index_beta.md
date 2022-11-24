@@ -14,7 +14,7 @@ Il est possible d'avoir 3 planifications différentes afin d'éteindre des équi
 Note : Ce rallumage ne se fera qu'une seule fois pour éviter un effet ping-pong et notification sera envoyé dans le centre de message de Jeedom si cela arrive
 
 3. Une planification peut également être utilisée uniquement en mode déclencheur afin d'être éxécutée depuis un mode, un scénario, etc ...  
-Les commandes Planification x Off et Planification x On de l'équipement Energy Saver servent à cela
+Les commandes "Planification x Off" et "Planification x On" de l'équipement Energy Saver servent à cela
 
 ![Création](images/EnergySaver_Configuration.png)
 
