@@ -11,6 +11,14 @@ Pas de version stable pour le moment
 
 # Version Béta
 
+## 24/11/2022
+Nouveautés / Evolutions :
+- Ajout de l'information indiquant si l'équipement ne doit pas être rallumé dans la "Liste des équipements compatibles"
+
+Corrections : 
+- Initialisation de quelques variables pour ne pas provoquer d'erreur dans http.error (merci @Phpvarious)
+- Correction typo
+
 ## 23/11/2022
 Nouveautés / Evolutions :
 - Prise en charge des versions inférieures à Jeedom 4.3.1 dans le calcul des données (merci @Phpvarious)
