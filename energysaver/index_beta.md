@@ -13,6 +13,9 @@ Il est possible d'avoir 3 planifications différentes afin d'éteindre des équi
 2. Indiquer si le plugin doit gérer l'arrêt d'un équipement qui viendrait à être rallumé durant la planification  
 Note : Ce rallumage ne se fera qu'une seule fois pour éviter un effet ping-pong et notification sera envoyé dans le centre de message de Jeedom si cela arrive
 
+3. Une planification peut également être utilisée uniquement en mode déclencheur afin d'être éxécutée depuis un mode, un scénario, etc ...  
+Les commandes Planification x Off et Planification x On de l'équipement Energy Saver servent à cela
+
 ![Création](images/EnergySaver_Configuration.png)
 
 ## Utilisation
@@ -27,7 +30,7 @@ Dans la liste des équipements compatibles, plusieurs informations permettent d'
 
 Par défault (aucune planification selectionnée) le calcul est réalisé à partir des horaires de la planification n°1, sinon le calcul est réalisé sur la planification affectée au plugin. Pour afficher le nouveau calcul il est nécéssaire de sauvegarder, fermer puis ouvrir à nouveau "Liste des équipements compatibles"
 
-Les équipements surlignés en rouge sont ceux non gérés par le plugin et qui présentent assez d'informations (Consommation / Puissance / Etat)
+Les équipements surlignés sont ceux non gérés par le plugin et qui présentent assez d'informations (Consommation / Puissance / Etat) pour attirer l'attention
 
 2. Affecter une planification aux équipements souhaitées puis cliquer sur "Sauvegarder" pour que le plugin prenne ces équipements en charge
 
@@ -36,7 +39,9 @@ Aux heures programmées pour la mise en service les équipements actifs seront a
 
 ![Création](images/EnergySaver_SearchEq.png)
 
-3. Une option "Ne pas rallumer l'équipement automatiquement" est disponible pour chaque équipement afin qu'il soit arrêté mais non remis en service
+3. Une option "Ne pas rallumer l'équipement automatiquement" est disponible pour chaque équipement afin qu'il soit arrêté mais non remis en service  
+Note : La configuration est à faire dans chaque équipement mais elle sera visible dans "Liste des équipements compatibles"
+
 
 ## Informations complémentaires
 
