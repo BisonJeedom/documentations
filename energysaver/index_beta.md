@@ -55,4 +55,4 @@ Un équipement principal est crée pour supporter l'affichage d'un template donc
 ![Création](images/EnergySaver_Dashboard.png)
 
 ## Evolutions envisagées
-
+- Repérer automatiquement l'ajout de nouveaux modules dans Jeedom et qui pourraient être pris en charge par Energy Saver
