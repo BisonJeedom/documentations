@@ -11,6 +11,11 @@ Pas de version stable pour le moment
 
 # Version Béta
 
+## 26/11/2022
+Nouveautés / Evolutions :
+- Prise en compte des modifications sur le visuel de l'équipement Energy Saver dès la sauvegarde de la configuration
+- Suppression du bouton refresh sur le visuel de l'équipement Energy Saver
+
 ## 24/11/2022
 Nouveautés / Evolutions :
 - Ajout de l'information indiquant si l'équipement ne doit pas être rallumé dans la "Liste des équipements compatibles"
