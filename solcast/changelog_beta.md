@@ -13,7 +13,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 ## 29/11/2022
 Corrections :
-- Un bug dans la gestion de l'affichage des jours pouvait provoqué une erreur 500
+- Un bug dans la gestion de l'affichage des jours pouvait provoquer une erreur 500
 - La selection d'une seule journée de prévision provoquait une erreur 500 depuis l'introduction de l'indice de fiabilité (qui est toujours en test)
 
 ## 19/11/2022
