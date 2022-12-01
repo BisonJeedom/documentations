@@ -84,4 +84,4 @@ L'utilisation principale est de connaitre la quantité de Watts qui sera produit
 
 **Attention**
 Il semblerait que de nouvelles conditions limite le nombre de requêtes par jour à seulement 10 !
-![Création](images/SolCast_10 requests only.png)
+![Création](images/SolCast_10_requests_only.png)
