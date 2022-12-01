@@ -81,3 +81,7 @@ Exemple de vue :
 L'utilisation principale est de connaitre la quantité de Watts qui sera produite pour chaque tranche horaire afin de prévoir de faire fonctionner des équipements au bon moment (chauffe-eau, pompe, etc ...)
 
 50 requêtes par jour sont possibles sur l'API. Il est possible de créer un second rooftop avec des paramètres un peu différents pour voir si les prévisions se rapprochent de la réalité (inclinaison, puissances AC et DC).
+
+**Attention**
+Il semblerait que de nouvelles conditions limite le nombre de requêtes par jour à seulement 10 !
+![Création](images/SolCast_10_requests_only.png)
