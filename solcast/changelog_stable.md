@@ -8,7 +8,7 @@
 
 ## 03/12/2022
 Changements et améliorations :
-- Travail sur le graphique pour qu'il s'adapte mieux en fonction de la taille de tuile. Les tranches horaires du tableau sont maintenant en fasse des heures du graphique
+- Travail sur le graphique pour qu'il s'adapte mieux en fonction de la taille de tuile. Les tranches horaires du tableau sont maintenant en face des heures du graphique
 - Les tranches horraires sont affichées totalement dans le tableau de la journée (9-10 plutôt que 10)
 - Historisation des valeurs de prévision et production journalière pour permettre un affichage de courbes sur le mois et sur l'année
 
