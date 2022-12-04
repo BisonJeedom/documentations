@@ -11,6 +11,14 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 04/12/2022
+Nouveautés :
+- Paramètre "Fréquence de raffraichissement des données" pour adapter le plugin à une modification de SolCast qui ne permet plus que 10 requêtes par jour. Par défaut, l'actualisation ne se fera que toutes les 2 heures lors des heures paires.  
+**Important** : Si votre compte permet 50 API et que vous souhaitez maintenir une fréquence d'intérrogation chaque heure, il faut modifier ce paramètre
+
+Corrections :
+- La valeur de production n'était pas enregistrée le 1er jour du mois (et seulement le 1er jour)
+
 ## 29/11/2022
 Corrections :
 - Un bug dans la gestion de l'affichage des jours pouvait provoquer une erreur 500
