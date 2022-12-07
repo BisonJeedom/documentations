@@ -5,24 +5,31 @@ Ce plugin permet de récupérer les données de SOLCAST afin de disposer des pr�
 **Il est nécéssaire de créer un compte sur SOLCAST**
 
 ## Création d'un compte sur le site SOLCAST
-Une fois votre compte créé sur [SOLCAST](https://solcast.com) il faudra renseigner votre "Rooftop" et le site vous fournira un lien et une clef API correspondant à votre installation photovoltaïque. Il est obligatoire de paramétrer votre site SolCast dans plugin avec ces 2 informations (ressource_id et api_key)
+Une fois votre compte créé sur [SOLCAST](https://solcast.com) il faudra renseigner votre "Rooftop" et le site vous fournira un lien et une clef API correspondant à votre installation photovoltaïque. Il est obligatoire de paramétrer votre site SolCast dans le plugin avec ces 2 informations (ressource_id et api_key)
 
 Dans le détail :
-1. Créer votre compte de type "My home PV system only" sur [SOLCAST home PV](https://toolkit.solcast.com.au/register/hobbyist)
-2. Créer votre "Rooftop" c'est à dire indiquer les données techniques de vos panneaux photovoltaïque (Latitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
+1. Créer votre compte de type "My home PV system only" sur [SOLCAST home PV](https://toolkit.solcast.com.au/register/hobbyist)  
+![Création](images/SolCast_10_requests_only.png)
+3. Créer votre "Rooftop" et indiquer les données techniques de vos panneaux photovoltaïque (Latitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
     - Latitude et Longitude au format x.y. Exemple pour la tour Eiffel : Latitude : 48.85823 / Longitude : 2.29457
-    - AC Capacity (inverters) à exprimer en kW : indiquer la puissance maximum que peut produire votre installation
+    - AC Capacity (inverters) à exprimer en kW : indiquer la puissance maximum que peut produire votre installation dans la réalité (max vos courbes en été)
     - DC Capacity (modules) à exprimer en kW : indiquer la puissance crête théorique de votre installation
-    - Azimuth : Orientation de vos panneaux entre -180 et 180 sachant que 0 est le Nord et 180 le Sud et qu'il faudra indiquer un nombre négatif si les panneaux sont orientés vers l'EST et positif si les panneaux sont orientés vers l'OUEST. Exemple : -90 pour EST et 90 pour OUEST
+    - Azimuth : Orientation de vos panneaux entre -180 et 180 sachant que 0 correspond au Nord et 180 au Sud et qu'il faudra indiquer un nombre négatif si les panneaux sont orientés vers l'EST et positif si les panneaux sont orientés vers l'OUEST.  
+   Exemple : -90 pour EST et 90 pour OUEST  
 ![Création](images/SolCast_Boussole.png)  
-      > TIPS : vérifier l'orientation de votre toit sur https://www.geoportail.gouv.fr/carte en utilisant "Outils > Mesures > Mesurer un azimut" (tracer un trait en suivant le bord du toit). Si le chiffre obtenu est X alors : 
+      > TIPS : vérifier l'orientation de votre toit sur https://www.geoportail.gouv.fr/carte en utilisant "Outils > Mesures > Mesurer un azimut"  
+      > :arrow_right: Tracer un trait depuis le faîtage jusqu'à la goutière en suivant la rive  
+      
+      > Si le chiffre obtenu est X alors :
       > - Si les panneaux sont orientés vers l’EST alors indiquer : 0-X
-      > - Si les panneaux sont orientés vers l’OUEST alors indiquer : 360-X
+      > - Si les panneaux sont orientés vers l’OUEST alors indiquer : 360-X  
+      > Exemple avec une maison dont les panneaux sont orientés vers l'EST :  
+      ![Création](images/SolCast_Determiner_Azimuth.png)  
     - Tilt (Horizontal) : Inclinaison des panneaux par rapport à l'horizontale
     - Efficiency factor : Le pourcentage d'efficacité de votre installation
 ![Création](images/rooftop-site_creation.png)
 
-3. Ouvrir votre Rooftop et vous le résumé de votre site à droite :    
+3. Ouvrir votre Rooftop, le résumé de votre site est à droite :    
     - Copier l'information Ressource Id, elle sera à saisir dans le paramètre **Ressource ID** du plugin
 ![Création](images/SolCast_Site_Summary.png)
 
@@ -36,16 +43,15 @@ Dans le détail :
 2. Renseigner obligatoirement :
     - Ressource ID : Information issue du bloc précédent à l'étape 3
     - API Key : Information issue du bloc précédent à l'étape 4
-3. (Optionnel) Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
-4. (Optionnel) Configurer au besoin l'heure de "Début de la prévision" et "Fin de la prévision" pour limiter le nombre de commandes
-5. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
-6. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production".
+3. (Optionnel) Fréquence de raffraichissement des données : Toutes les 2 heures par défaut mais il est possible de demander une actualisation chaque heure si votre abonnement le permet (**Attention laisser ce paramètre par défaut si votre compte ne permet que 10 requêtes**)
+4. (Optionnel) Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
+5. (Optionnel) Configurer au besoin l'heure de "Début de la prévision" et "Fin de la prévision" pour limiter le nombre de commandes (**Attention si votre compte ne permet que 10 requêtes**)
+6. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
+7. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
+**Important** : Cette information doit correspondre à l'index total qui n'est jamais remi à zéro
+8. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes
 
-**Important** Cette commande correspond à l'index total qui n'est jamais remi à zéro. C'est le plugin qui gère la production qui sera affichée pour la journée
-7. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commande d'informations
-
-Exemple :
-
+Exemple :  
 ![Création](images/SolCast_template.png)
 
 ## Cron
@@ -80,8 +86,7 @@ Exemple de vue :
 ## Utilisation et tips
 L'utilisation principale est de connaitre la quantité de Watts qui sera produite pour chaque tranche horaire afin de prévoir de faire fonctionner des équipements au bon moment (chauffe-eau, pompe, etc ...)
 
-50 requêtes par jour sont possibles sur l'API. Il est possible de créer un second rooftop avec des paramètres un peu différents pour voir si les prévisions se rapprochent de la réalité (inclinaison, puissances AC et DC).
+10 requêtes par jour sont possibles sur l'API depuis le 1er décembre 2022.  
+**Attention de définir les paramètres "Début de la prévision" et "Fin de la prévision" en conséquence**  
 
-**Attention**
-Il semblerait que de nouvelles conditions limite le nombre de requêtes par jour à seulement 10 !
-![Création](images/SolCast_10_requests_only.png)
+Si votre compte permet 50 requêtes il est possible de créer un second rooftop avec des paramètres (inclinaison, puissances AC et DC) un peu différents pour voir si les prévisions se rapprochent un peu plus de la réalité.
