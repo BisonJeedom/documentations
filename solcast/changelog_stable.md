@@ -6,6 +6,15 @@
 
 # Version Stable
 
+## 07/12/2022
+Nouveautés :
+- Paramètre "Fréquence de raffraichissement des données" pour adapter le plugin à une modification de SolCast qui ne permet plus que 10 requêtes par jour. Par défaut, l'actualisation ne se fera que toutes les 2 heures lors des heures paires.  
+
+**Important** : Si votre compte permet 50 API et que vous souhaitez maintenir une fréquence d'intérrogation chaque heure, il faut modifier ce paramètre
+
+Corrections :
+- La valeur de production n'était pas enregistrée le 1er jour du mois (et seulement le 1er jour)
+
 ## 03/12/2022
 Changements et améliorations :
 - Travail sur le graphique pour qu'il s'adapte mieux en fonction de la taille de tuile. Les tranches horaires du tableau sont maintenant en face des heures du graphique
