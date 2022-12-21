@@ -49,7 +49,9 @@ Dans le détail :
 6. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
 7. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
 **Important** : Cette information doit correspondre à l'index total qui n'est jamais remi à zéro
-8. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes
+8. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
+
+Note : Afin d'économiser de la place sur le template, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
 
 Exemple :  
 ![Création](images/SolCast_template.png)
