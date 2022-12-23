@@ -6,6 +6,15 @@
 
 # Version Stable
 
+## 23/12/2022
+Nouveautés :
+- Masquage du champs de l'API dans les paramètres pour faciliter la publication de captures
+
+Corrections :
+- Aucun graphique affiché dans les premières heures d'utilisations
+- Pas ou pas assez de données récupérées sur SolCast pour un nombre de jour de prévision supérieur à 2
+- La prévision à 6h n'était plus recalculée en cas d'utilisation d'une actualisation toutes les 2h
+
 ## 07/12/2022
 Nouveautés :
 - Paramètre "Fréquence de raffraichissement des données" pour adapter le plugin à une modification de SolCast qui ne permet plus que 10 requêtes par jour. Par défaut, l'actualisation ne se fera que toutes les 2 heures lors des heures paires.  
