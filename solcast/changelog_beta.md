@@ -11,6 +11,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 03/01/2023
+Nouveautés :
+- Ajout des commandes "Prévision J+0 avec moins de nuages" et "Prévision J+0 avec plus de nuages"
+- Ajout de données dans le tableau de prévision et production du jour : "Ecart 90/10" et "prévision %"
+- Nouveau graphique (à la place du texte) pour les données de prévision du jour et de demain et nouvelles données : prévision minimum/maximum, écart, pourcentage de la prévision dans la fourchette basse/haute
+- Le graphique "Année" devient glissant et permet de voir l'historique des mois précédents
+
 ## 21/12/2022
 Nouveautés :
 - Masquage du champs de l'API dans les paramètres pour faciliter la publication de captures
