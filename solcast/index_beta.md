@@ -51,10 +51,11 @@ Dans le détail :
 **Important** : Cette information doit correspondre à l'index total qui n'est jamais remi à zéro
 8. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
 
-Note : Afin d'économiser de la place sur le template, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
+Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
 
-Exemple :  
+Données du 03/01/2023 chez votre developpeur :
 ![Création](images/SolCast_template.png)
+![Création](images/SolCast_template_part1.png)![Création](images/SolCast_template_part2.png)
 
 ## Cron
 
