@@ -53,7 +53,7 @@ Dans le détail :
 
 Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
 
-Données du 03/01/2023 chez votre developpeur :
+Données du 03/01/2023 chez votre developpeur :  
 ![Création](images/SolCast_template.png)
 ![Création](images/SolCast_template_part1.png)![Création](images/SolCast_template_part2.png)
 
