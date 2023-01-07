@@ -49,7 +49,7 @@ Dans le détail :
 6. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
 7. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
 **Important** : Cette information doit correspondre à l'index total qui n'est jamais remi à zéro
-8. (Optionnel) Cocher "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production ne redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
+8. (Optionnel) Cocher "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
 9. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
 
 Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
