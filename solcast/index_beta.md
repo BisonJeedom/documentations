@@ -49,7 +49,8 @@ Dans le détail :
 6. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
 7. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
 **Important** : Cette information doit correspondre à l'index total qui n'est jamais remi à zéro
-8. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
+8. (Optionnel) Cocher "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production ne redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
+9. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
 
 Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
 
@@ -93,3 +94,7 @@ L'utilisation principale est de connaitre la quantité de Watts qui sera produit
 **Attention de définir les paramètres "Début de la prévision" et "Fin de la prévision" en conséquence**  
 
 Si votre compte permet 50 requêtes il est possible de créer un second rooftop avec des paramètres (inclinaison, puissances AC et DC) un peu différents pour voir si les prévisions se rapprochent un peu plus de la réalité.
+
+Dans la page de configuration d'un équipement, il est possible de modifier les données les données du graphique "Année", pour réinitialiser les valeurs ou corriger ce qui que vous voulez. A UTILISER EN CONNAISSANCE DE CAUSE.  
+Selectionner le mois, le type de données (prévision évolutive, prévision à 6h, production) et la valeur à envoyer. Une valeur non saisie sera considéré comme nulle.  
+![Création](images/SolCast_Modify_Values.png)
