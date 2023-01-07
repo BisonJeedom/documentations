@@ -11,6 +11,14 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 07/01/2023
+Nouveautés :
+- Ajout option pour "Ignorer l'avertissement d'index anormal"
+- Ajout de la possibilité de modifier les données du graphique "Année". A UTILISER EN CONNAISSANCE DE CAUSE.
+
+Corrections :
+- Ajustement du décalage visuel de la prévision haute pour le lendemain qui n'était pas la même que pour ajourd'hui
+
 ## 03/01/2023
 Nouveautés :
 - Ajout des commandes "Prévision J+0 avec moins de nuages" et "Prévision J+0 avec plus de nuages"
