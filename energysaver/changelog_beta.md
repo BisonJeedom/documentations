@@ -11,6 +11,10 @@ Pas de version stable pour le moment
 
 # Version Béta
 
+## 15/01/2022
+Nouveautés / Evolutions :
+- Ajout d'une vérification par jour pour informer de la découverte de nouveaux équipements que le plugin pourra prendre en charge. Cette information sera déposée dans le centre de message Jeedom  
+
 ## 26/11/2022
 Nouveautés / Evolutions :
 - Prise en compte des modifications sur le visuel de l'équipement Energy Saver dès la sauvegarde de la configuration
