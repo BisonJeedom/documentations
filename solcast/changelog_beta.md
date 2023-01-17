@@ -11,6 +11,14 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 17/01/2023
+Nouveautés :
+- 2 nouvelles commandes "Prévision J+0 à 6h de la journée complète" et "Prévision J+0 de la journée complète" permettent de voir la courbe de prévision dans un graphique historique dès le début de la journée (Jeedom, JeedomConnect, ...).
+
+Notes : 
+- Pour le visualiser dans Jeedom il faut "Autoriser les dates dans le futur coté Jeedom"
+- Pour le visualiser dans Jeedom Connect il faut être en version 1.7.1
+
 ## 07/01/2023
 Nouveautés :
 - Ajout option pour "Ignorer l'avertissement d'index anormal"
