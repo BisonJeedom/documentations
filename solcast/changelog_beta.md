@@ -17,7 +17,7 @@ Nouveautés :
 
 Notes : 
 - Pour le visualiser dans Jeedom il faut "Autoriser les dates dans le futur coté Jeedom"
-- Pour le visualiser dans Jeedom Connect il faut être en version 1.7.1
+- Pour le visualiser dans Jeedom Connect il faut être en version 1.7.1 (à venir prochainement)
 
 ## 07/01/2023
 Nouveautés :
