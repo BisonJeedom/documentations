@@ -49,12 +49,14 @@ Dans le détail :
 6. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
 7. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
 **Important** : Cette information doit correspondre à l'index total qui n'est jamais remi à zéro
-8. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
+8. (Optionnel) Cocher "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
+9. (Optionnel) Cocher "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
 
-Note : Afin d'économiser de la place sur le template, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
+Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées
 
-Exemple :  
-![Création](images/SolCast_template.png)
+Données du 03/01/2023 chez votre developpeur :  
+![Création](images/SolCast_template_beta.png)
+![Création](images/SolCast_template_part1.png)![Création](images/SolCast_template_part2.png)
 
 ## Cron
 
@@ -77,11 +79,14 @@ Lors du cron de 0h45 ces commandes sont remises à zéro
 # Commandes secondaires
 - Une commande indiquant la prévision sur l'heure suivante : "Prévision heure suivante"
 - Des commandes totalisant la quantité de Wh pour chaque jour : "Prévision J+x"
-- Des commandes totalisant la quantité de Wh pour chaque jour dans les cas où il y a plus ou moins de nuages que prévu : "Prévision J+x avec moins de nuages" / "Prévision J+x avec plus de nuages" (à partir de J+1)
+- Des commandes totalisant la quantité de Wh pour chaque jour dans les cas où il y a plus ou moins de nuages que prévu : "Prévision J+x avec moins de nuages" / "Prévision J+x avec plus de nuages"
 - Des commandes indiquant les 3 Tops de la journée avec les valeurs et les heures de fin : "Top x valeur" / "Top x heure de fin"
 - 2 commandes "Prévision heure suivante (comparaison)" et "Prévision fin de journée (comparaison)" qui permettent de comparer les prévisions à la production réelle sur une vue car ces commandes sont décalées dans le temps pour donner la valeur au même moment que la valeur de production
+- 2 commandes "Prévision J+0 à 6h de la journée complète" et "Prévision J+0 de la journée complète" qui permettent de voir la courbe de prévision de la journée dans un graphique historique dès le début de la journée (Jeedom, JeedomConnect, ...). La courbe à 6h ne bouge pas mais l'autre évoluera avec l'affinage de la prévision au fil des heures.  
+Pour les visualiser dans Jeedom il faut "Autoriser les dates dans le futur" (Réglages > Système > Configuration > Equipements)
+Pour les visualiser dans Jeedom Connect il faut être en version 1.7.1 et activer le mode "Dates dans le futur" dans le widget Historique
 
-Exemple de vue : 
+Exemple de vue dans Jeedom : 
 ![Création](images/SolCast_vue.png)
 
 
@@ -92,3 +97,7 @@ L'utilisation principale est de connaitre la quantité de Watts qui sera produit
 **Attention de définir les paramètres "Début de la prévision" et "Fin de la prévision" en conséquence**  
 
 Si votre compte permet 50 requêtes il est possible de créer un second rooftop avec des paramètres (inclinaison, puissances AC et DC) un peu différents pour voir si les prévisions se rapprochent un peu plus de la réalité.
+
+Dans la page de configuration d'un équipement, il est possible de modifier les données les données du graphique "Année", pour réinitialiser les valeurs ou corriger ce qui que vous voulez. A UTILISER EN CONNAISSANCE DE CAUSE.  
+Selectionner le mois, le type de données (prévision évolutive, prévision à 6h, production) et la valeur à envoyer. Une valeur non saisie sera considéré comme nulle.  
+![Création](images/SolCast_Modify_Values.png)
