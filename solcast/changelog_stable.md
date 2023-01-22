@@ -6,11 +6,11 @@
 
 # Version Stable
 
-## 22/12/2022
+## 22/01/2023
 Corrections :
 - L'affichage des graphiques plantait dans certaines condition suite à la mise à jour du 21/12 (liée aux commandes "Prévision J+0 avec moins de nuages" et "Prévision J+0 avec plus de nuages"
 
-## 21/12/2022
+## 21/01/2023
 Nouveautés :
 - Ajout des commandes "Prévision J+0 avec moins de nuages" et "Prévision J+0 avec plus de nuages"
 - Ajout de données dans le tableau de prévision et production du jour : "Ecart 90/10 » et « prévision %"
