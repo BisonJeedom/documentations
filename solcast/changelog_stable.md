@@ -6,6 +6,27 @@
 
 # Version Stable
 
+## 22/12/2022
+Corrections :
+- L'affichage des graphiques plantait dans certaines condition suite à la mise à jour du 21/12 (liée aux commandes "Prévision J+0 avec moins de nuages" et "Prévision J+0 avec plus de nuages"
+
+## 21/12/2022
+Nouveautés :
+- Ajout des commandes "Prévision J+0 avec moins de nuages" et "Prévision J+0 avec plus de nuages"
+- Ajout de données dans le tableau de prévision et production du jour : "Ecart 90/10 » et « prévision %"
+- Nouveau graphique (à la place du texte) pour les données de prévision du jour et de demain et nouvelles données : prévision minimum/maximum, écart, pourcentage de la prévision dans la fourchette basse/haute
+- Le graphique "Année" devient glissant et permet de voir l’historique des mois précédents
+- Ajout option pour "Ignorer l’avertissement d’index anormal"
+- Ajout de la possibilité de modifier les données du graphique "Année". A UTILISER EN CONNAISSANCE DE CAUSE
+- 2 nouvelles commandes "Prévision J+0 à 6h de la journée complète" et "Prévision J+0 de la journée complète" qui permettent de voir la courbe de prévision dans un graphique historique dès le début de la journée (pour une utilisation dans JeedomConnect ou bien dans Jeedom)
+
+Notes : 
+- Pour visualiser dans un historique Jeedom il faut "Autoriser les dates dans le futur"
+- Pour visualiser dans Jeedom Connect il faut être en version 1.7.1 et activer le mode "Dates dans le futur" dans le widget Historique
+
+Corrections :
+- Ajustement du décalage visuel de la prévision haute pour le lendemain qui n’était pas la même que pour aujourd’hui
+
 ## 23/12/2022
 Nouveautés :
 - Masquage du champs de l'API dans les paramètres pour faciliter la publication de captures
