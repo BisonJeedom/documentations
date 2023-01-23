@@ -14,7 +14,8 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 ## 23/01/2022
 Nouveautés / Evolutions :
 - Il est maintenant possible de spécifier sur quels jours de la semaine les planifications doivent s'enclencher
-- Ajout de commande "Planification x Mode Declencheur On" et "Planification x Mode Declencheur Off".  
+- Ajout de commande "Planification x Mode Declencheur On" et "Planification x Mode Declencheur Off"
+  
   Exemple : L'éxécution de la commande "Planification 1 Mode Declencheur On" va permettre de désactiver la programmation horaire car en activant le mode déclencheur (depuis un scénario ou autre), la planification ne s'éxécutera plus aux heures prévues jusqu'à ce que la commande "Planification 1 Mode Declencheur Off" soit à nouveau éxécutée
 
 ## 15/01/2022
