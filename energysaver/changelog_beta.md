@@ -11,7 +11,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
-## 23/01/2022
+## 23/01/2023
 Nouveautés / Evolutions :
 - Il est maintenant possible de spécifier sur quels jours de la semaine les planifications doivent s'enclencher
 - Ajout de commande "Planification x Mode Declencheur On" et "Planification x Mode Declencheur Off"
