@@ -1,4 +1,4 @@
-# Documentation du plugin Energy Saver (version Béta)
+# Documentation du plugin Energy Saver (version Bêta)
 
 ## Présentation
 Ce plugin permet d'aider à stopper certains équipements de votre installation Jeedom durant une fourchette horaire afin d'économiser de l'énergie
