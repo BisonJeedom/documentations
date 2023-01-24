@@ -14,11 +14,11 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 ## 24/01/2023
 
 Nouveautés :
-- Possibilité de passer sur une template "horizontal" afin d'occuper moins de place verticalement et s'adapter plus facilement à un design "tablette"
+- Possibilité de passer sur un template "horizontal" afin d'occuper moins de place verticalement et s'adapter plus facilement à un design "tablette"
 - Possibilité de ne pas afficher certains éléments du template pour gagner encore de la place au besoin : barre d'information "Aujourd'hui", barre d'information "Demain", tableau de données "Aujourd'hui", graphiques en courbes, informations de dernières actualisation
 
 Corrections :
-- La courbe de prévision des 6h de la nouvelle commande "Prévision J+0 à 6h de la journée complète" était celle de la veille
+- Les données la nouvelle commande "Prévision J+0 à 6h de la journée complète" permettant de tracer la courbe de prévision des 6h était celle de la veille
 
 ## 22/01/2023
 Corrections :
