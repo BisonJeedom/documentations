@@ -14,7 +14,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 ## 25/01/2023
 
 Corrections :
-- Les données de 6h n'étaient pas misent à jour quand le début de prévision paramétrées étaient supérieur 7h
+- Aucune mise à jour des données de 6h quand le début de prévision paramétrée est supérieur 7h
 
 ## 24/01/2023
 
