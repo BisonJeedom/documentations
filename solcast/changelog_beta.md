@@ -9,7 +9,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 <hr/>
 
-# Version Béta
+# Version Bêta
+
+## 25/01/2023
+
+Corrections :
+- Les données de 6h n'étaient pas misent à jour quand le début de prévision paramétrées étaient supérieur 7h
 
 ## 24/01/2023
 
