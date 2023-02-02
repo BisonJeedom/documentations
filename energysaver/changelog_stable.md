@@ -6,7 +6,7 @@
 
 # Version Stable
 
-## 03/01/2023
+## 03/02/2023
 Nouveautés / Evolutions :
 - Ajout d'une vérification par jour pour informer de la découverte de nouveaux équipements que le plugin pourra prendre en charge. Cette information sera déposée dans le centre de message Jeedom
 - Il est maintenant possible de spécifier sur quels jours de la semaine les planifications doivent s'enclencher
