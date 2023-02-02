@@ -11,12 +11,17 @@ Ce plugin permet d'aider à stopper certains équipements de votre installation 
 Il est possible d'avoir 3 planifications différentes afin d'éteindre des équipements sur des plages horaires différentes
 
 2. Indiquer si le plugin doit gérer l'arrêt d'un équipement qui viendrait à être rallumé durant la planification  
-Note : Ce rallumage ne se fera qu'une seule fois pour éviter un effet ping-pong et notification sera envoyé dans le centre de message de Jeedom si cela arrive
+Note : Ce rallumage ne se fera qu'une seule fois pour éviter un effet ping-pong et une notification sera envoyé dans le centre de message de Jeedom si cela arrive
 
 3. Une planification peut également être utilisée uniquement en mode déclencheur afin d'être éxécutée depuis un mode, un scénario, etc ...  
 Les commandes "Planification x Off" et "Planification x On" de l'équipement Energy Saver servent à cela
 
-![Création](images/EnergySaver_Configuration.png)
+4. Les commandes "Planification x Mode Declencheur On" et "Planification x Mode Declencheur Off" permettent de basculer une planification en mode déclencheur  
+   Cela peux servir, depuis un scénario par exemple, pour désactiver temporairement une planification basée sur un horaire
+
+5. Par défaut la planification sera active tous les jours de la semaine mais il est possible de selectionner les jours pendant laquelle elle sera active  
+
+![Création](images/EnergySaver_Configuration_Weekdays.png)
 
 ## Utilisation
 
@@ -47,6 +52,8 @@ Note : La configuration est à faire dans chaque équipement mais elle sera visi
 
 Un équipement est crée pour chaque équipement pris en charge mais non visible par défault
 
+Chaque jour, le plugin informera dans le centre de message Jeedom s'il detecte de nouveaux équipements pouvant être pris en charge  
+
 Un équipement principal est crée pour supporter l'affichage d'un template donc à afficher sur le dashboard ou dans un design
 **Important** : Ne supprimez pas cet équipement
 
@@ -55,4 +62,3 @@ Un équipement principal est crée pour supporter l'affichage d'un template donc
 ![Création](images/EnergySaver_Dashboard.png)
 
 ## Evolutions envisagées
-- Repérer automatiquement l'ajout de nouveaux modules dans Jeedom et qui pourraient être pris en charge par Energy Saver
