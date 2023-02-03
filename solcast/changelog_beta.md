@@ -11,6 +11,17 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 03/02/2023
+
+Nouveautés :
+- Un équipement peut maintenant être global afin de regrouper les données d'autres équipements. A utiliser dans le cas de plusieurs orientations.
+- 2 nouvelles commandes : "Prévision J+0 à 6h" et "Indice de fiabilté J+0"
+- Ajout de la prévision à 6h pour la journée
+- Ajout d'un indice de fiabilité entre 1 (faible fiabilité) et 4 (très bonne fiabilité) réalisé avec une autre méthode de calcul (proposition @pj66). Cet indice est basé sur la prévision à 6h et ne bougera donc pas de la journée.
+
+Corrections :
+- Correction des messages d'erreurs qui peuvent apparaitre au début, lorsque toutes les données ne sont pas obtenues par le plugin
+
 ## 25/01/2023
 
 Corrections :
