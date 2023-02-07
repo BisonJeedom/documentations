@@ -10,7 +10,7 @@ Aucun équipement n'est associé à ce plugin, tout ce passe dans la partie conf
 Configurer un ou plusieurs mots-clefs séparés par des points-virgules et sauvegarder  
 Exemple : vmc;photovoltaïque;atlantic
 
-![Création](images/Documentation.png)
+![Configuration](images/Configuration.png)
 
 L'historique des 50 derniers plugins découvert sera indiqué dans la partie "Historique" (même page que la configuration du plugin)
 Les lignes de l'historique sont cliquables afin de voir directement le plugin en question
