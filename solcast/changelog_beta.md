@@ -13,8 +13,8 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 ## 09/02/2023
 Corrections :
-- Information du raffraichissement d'un équipement global
-- Non affichage d'une partie de l'équipement global (liée à l'information de raffraichissement)
+- Information du rafraichissement d'un équipement global
+- Non affichage d'une partie de l'équipement global (liée à l'information de rafraichissement)
 - Erreur de calcul sur la prévision à 6h pour l'équipement global
 - Correction des messages d'erreurs qui peuvent apparaitre au début, lorsque toutes les données ne sont pas obtenues par le plugin
 - Calcul des 3 tops de l'équipemetnt global
