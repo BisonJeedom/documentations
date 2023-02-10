@@ -14,6 +14,8 @@ Les options "Version stable uniquement" et "Version beta uniquement" permettent 
 
 A chaque modification des mots clefs, la recherche sera réalisée sur l'ensembles des plugins existants, sinon la recherche ne sera effectuée que sur les nouveaux plugins
 
+***Important : Il faut éviter de cocher une option de notification lors de la 1ere saisie importantes des mots-clefs pour ne pas être spammé !***
+
 ![Paramètres de recherche](images/Parametres_de_recherche.png)
 
 ## Réception des notifications
