@@ -10,7 +10,7 @@ Créer un équipement et configurer un ou plusieurs mots-clefs séparés par des
 Exemple : vmc;photovoltaïque;atlantic
 
 La recherche des mots-clefs pourra être réalisée dans le nom, la description, l'utilisation et l'auteur suivant les options selectionnées  
-Les options "Version stable uniquement" et "Version beta uniquement" permettent de limiter les résultats
+Les options "Version stable uniquement", "Version beta uniquement" et "Exclure les plugins privés" permettent de limiter les résultats
 
 A chaque modification des mots clefs, la recherche sera réalisée sur l'ensembles des plugins existants, sinon la recherche ne sera effectuée que sur les nouveaux plugins
 
