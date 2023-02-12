@@ -12,6 +12,14 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 12/02/2023
+
+Améliorations :
+
+- Ajout d'une option pour "Exclure les plugins privés"
+- Le changement d'une des options éxécutera un raffraichissement sur l'ensemble des plugins du Market lors de la sauvegarde
+- Il n'est plus possible de selectionner à la fois "Version stable uniquement" et "Version beta uniquement"
+
 ## 10/02/2023
 
 Merci à @tomitomas pour le gros coup de main sur cette version !
