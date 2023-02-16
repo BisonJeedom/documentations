@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 14/02/2023
+
+Corrections :
+
+- Modification de la méthode de tri de l'historique affiché et qui n'était plus correcte dès le 13 de chaque mois
+
 ## 12/02/2023
 
 Améliorations :
