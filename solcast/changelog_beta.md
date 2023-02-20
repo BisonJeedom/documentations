@@ -12,6 +12,16 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 20/02/2023
+
+Nouveautés :
+
+- Mode "Contournement de l'API" : Nouvelle option à paramétrer pour récupérer les données (limité à J+3 environ) à l'aide des identifiants du compte SolCast et sans consommation de l'API  
+Cette possibilité permet de repasser sur une interrogation toutes les heures pour les comptes limités à 10 requêtes par jour et de faciliter l'utilisation de l'équipement global dans ce cas de figure  
+Merci à @Noyax37 pour la découverte  
+
+**Attention** : Il est possible que cette méthode ne fonctionne plus du jour au lendemain !
+
 ## 12/02/2023
 
 Nouveautés :
