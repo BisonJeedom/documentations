@@ -37,5 +37,5 @@ En activant l'option "Changements sur version/prix/privé", une notification ser
 
 Une vérification est réalisée :
 
-- Chaque jour lors du cron paramétrée entre 00h00 et 04h59
+- Chaque jour lors du cron paramétré entre 00h00 et 04h59
 - Lors de la sauvegarde d'un équipement si la liste des mots-clefs est modifiée
