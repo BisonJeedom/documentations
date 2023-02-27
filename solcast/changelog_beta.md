@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 27/02/2023
+
+Corrections :
+
+- Problème d’affichage de la page de configuration d'un équipement (merci @cddu33)
+
 ## 20/02/2023
 
 Nouveautés :
