@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 12/03/2023
+
+Corrections :
+
+- Problème potentiel lors du reset des données à 00h05
+
 ## 27/02/2023
 
 Corrections :
