@@ -54,8 +54,6 @@ Dans le détail :
 6. (Optionnel) Configurer au besoin l'heure de "Début de la prévision" et "Fin de la prévision" pour limiter le nombre de commandes (**Attention si votre compte ne permet que 10 requêtes**)
 7. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
 8. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
-**Important** : Cette information doit correspondre à l'index total qui n'est jamais remi à zéro
-
 9. (Optionnel) "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
 10. (Optionnel) "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
 11. (Optionnel) "Template horizontal" permet d'afficher le template du plugin de façon plus horizontal pour ête plus adaptée à un affichage sur tablette
@@ -118,14 +116,15 @@ Si votre compte permet 50 requêtes il est possible de créer un second rooftop 
 Si vous avez la chance d'avoir plusieurs oreintations, il est possible de paramétrer le plugin pour obtenir des données globales.  
 Procédure pour 2 orientations, à adapter si vous en avez plusieurs !  
 
-1. Créer l'équipement correspondant à l'orientation n°1 sans toucher au paramétrage puis sauvegarder
+1. Créer, configurer et activer l'équipement correspondant à l'orientation n°1. Laisser le paramétrage global sur "Aucun" puis sauvegarder
 ![Création](images/SolCast_EqGlobalVierge.png)
-2. Créer l'équipement correspondant à l'orientation n°2 sans toucher au paramétrage puis sauvegarder
+2. Créer, configurer et activer l'équipement correspondant à l'orientation n°2. Laisser le paramétrage global sur "Aucun" puis sauvegarder
 ![Création](images/SolCast_EqGlobalVierge.png)
-3. Créer l'équipement global en cochant "Equipement Global" puis sauvegarder
-![Création](images/SolCast_EqGlobal.png)
+3. Créer et activer l'équipement global puis sauvegarder (il n'y a pas à indiquer de paramètres)
 4. Parametrer l'équipement global sur les équipements correspondant aux orientations n°1 et n°2 puis sauvegarder
 ![Création](images/SolCast_EqFils.png)
+5. Sur l'équipement global, cocher "Equipement Global" puis sauvegarder
+![Création](images/SolCast_EqGlobal.png)
 
 ## Modification des données
 
