@@ -16,7 +16,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 Corrections :
 
-- Les bargraphs du jour et du lendemain n'étaient pas affiché sur un équipement global dans certaines conditions
+- Les bargraphs du jour et du lendemain n'étaient pas affichés sur un équipement global dans certaines conditions
 
 ## 18/03/2023
 
