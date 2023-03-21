@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 21/03/2023
+
+Corrections :
+
+- Les bargraphs du jour et du lendemain n'étaient pas affiché sur un équipement global dans certaines conditions
+
 ## 18/03/2023
 
 Corrections :
