@@ -6,6 +6,14 @@
 
 # Version Stable
 
+## 30/03/2023
+
+Corrections :
+
+- Suppression du moyennage de l'historique pour les commandes  "Prévision J+0 de la journée complète" et  "Prévision J+0 à 6h de la journée complète" afin que la courbe tracée soit correcte
+- La courbe de prévision évolutive d'un équipement global n'était pas prise en compte avec un niveau de detail défini sur "Minimal"
+- Les bargraphs du jour et du lendemain n'étaient pas affichés sur un équipement global dans certaines conditions
+
 ## 12/03/2023
 
 Nouveautés :
