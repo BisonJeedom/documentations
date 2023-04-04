@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 04/04/2023
+
+Améliorations :
+
+- Compatibilité Jeedom v4.4
+
 ## 14/02/2023
 
 Corrections :
