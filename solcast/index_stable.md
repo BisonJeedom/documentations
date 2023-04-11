@@ -111,10 +111,10 @@ Si votre compte permet 50 requêtes il est possible de créer un second rooftop 
 
 # Paramétrages avancés
 
-## Configurer plusieures orientations
+## Configurer plusieurs orientations
 
-Si vous avez la chance d'avoir plusieures orientations, il est possible de paramétrer le plugin pour obtenir des données globales.  
-Procédure pour 2 orientations, à adapter si vous en avez plusieures !  
+Si vous avez la chance d'avoir plusieurs orientations, il est possible de paramétrer le plugin pour obtenir des données globales.  
+Procédure pour 2 orientations, à adapter si vous en avez plusieurs !  
 
 1. Créer, configurer et activer l'équipement correspondant à l'orientation n°1. Laisser le paramétrage global sur "Aucun" puis sauvegarder
 ![Création](images/SolCast_EqGlobalVierge.png)
