@@ -6,6 +6,17 @@
 
 # Version Stable
 
+## 08/04/2023
+
+Nouveautés :
+
+- Ajout d'une commande "Production de la journée par heure". Elle pourra servir, par exemple dans Jeedom Connect pour le tracé des graphiques dans un widget
+
+Corrections :
+
+- L'affichage de certaines commandes était réactivé systématiquement
+- Fautes d'orthographes dans la documentation (merci @Furaxworld)
+
 ## 30/03/2023
 
 Corrections :
