@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 20/04/2023
+
+Corrections :
+
+- La première valeur de production de la journée pouvait être incorrecte
+- Réduction de la marge pour changer la vue du graphique afin de pouvoir cliquer sur le dernier point de la journée
+
 ## 08/04/2023
 
 Nouveautés :
