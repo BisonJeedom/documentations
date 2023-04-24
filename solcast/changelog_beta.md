@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 24/04/2023
+
+Nouveautés :
+
+- 2 Options pour le tracé des graphiques "Aujourd'hui" et "Mois"
+  - Lignes droites ou lignes courbes. Lignes droites par défaut
+  - Affichage ou non des points sur la courbes. Affichage des points par défaut
+
+Corrections :
+
+- La commande "Production de la journée par heure" n'était pas calculée dans l'équipement global
+
 ## 20/04/2023
 
 Corrections :
