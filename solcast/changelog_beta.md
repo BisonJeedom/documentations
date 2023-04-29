@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 29/04/2023
+
+Corrections :
+
+- La commande "Production de la journée par heure" n'était pas calculée dans l'équipement global (nouveau fix)
+- Ajout d'un timeout sur le chargement des graphiques barres d'informations aujourd'hui et demain pour préparer l'arrivée de la v4.4
+
 ## 24/04/2023
 
 Nouveautés :
