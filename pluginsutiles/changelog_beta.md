@@ -16,7 +16,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 Améliorations :
 
-- Ajout de l'information sur la certification d'un plugin (Officiel, Conseillé, etc ...)
+- Ajout de l'information sur la certification d'un plugin (Officiel, Conseillé, etc ...) et dans la notification
 
 ## 04/04/2023
 
