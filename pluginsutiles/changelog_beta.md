@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 30/04/2023
+
+Améliorations :
+
+- Ajout de l'information sur la certification d'un plugin (Officiel, Conseillé, etc ...)
+
 ## 04/04/2023
 
 Améliorations :
