@@ -12,6 +12,17 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 15/05/2023
+
+Améliorations :
+
+- Possibilité de définir une commande de production pour un équipement global (utile si l'on a pas de valeur de production pour chaques orientations)
+- Introduction de statistiques, accessibles dans la page de configuration des équipements
+
+Corrections :
+
+- L'historisation de certaine commande étaient réactivée alors qu'elle avait été désactivée manuellement
+
 ## 29/04/2023
 
 Corrections :
