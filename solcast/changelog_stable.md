@@ -6,6 +6,24 @@
 
 # Version Stable
 
+## 23/05/2023
+
+Nouveautés / Améliorations :
+
+- Possibilité de définir une commande de production pour un équipement global (utile si l'on a pas de valeur de production pour chaques orientations)
+- Introduction de statistiques, accessibles dans la page de configuration des équipements
+- 2 Options pour le tracé des graphiques "Aujourd'hui" et "Mois"
+  - Lignes droites ou lignes courbes. Lignes droites par défaut
+  - Affichage ou non des points sur la courbes. Affichage des points par défaut
+
+Corrections :
+
+- L'historisation de certaines commandes étaient réactivée alors qu'elle avait été désactivée manuellement
+- Ajout d'un timeout sur le chargement des graphiques barres d'informations aujourd'hui et demain pour préparer l'arrivée de la v4.4
+- La commande "Production de la journée par heure" n'était pas calculée dans l'équipement global
+- La première valeur de production de la journée pouvait être incorrecte
+- Réduction de la marge pour changer la vue du graphique afin de pouvoir cliquer sur le dernier point de la journée
+
 ## 16/04/2023
 
 Nouveautés :
