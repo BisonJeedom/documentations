@@ -12,6 +12,14 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 28/05/2023
+
+Corrections :
+
+- Le total de la journée "Prévision J+0" n'était pas calculé lors du cron de 00h45
+- Les graphiques en barre Aujourd'hui et demain devenaient illisibles quand la prévision la plus basse etait la même que la prévision la plus haute
+- Meilleure visibilité des couleurs sur les graphiques "aujourd'hui" et "demain" en version 4.4
+
 ## 15/05/2023
 
 Améliorations :
