@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 14/07/2023
+
+Corrections :
+
+- Erreur dans les logs "Undefined variable: tendance"
+
 ## 28/05/2023
 
 Corrections :
