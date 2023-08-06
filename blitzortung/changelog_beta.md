@@ -22,7 +22,8 @@ Corrections :
 
 - Modification du nom du plugin : Impacts de foudre (Blitzortung) -> Impacts de foudre
 - Modification de l'auteur du plugin (Jeedom SAS vers Bison)
-- Le rayon par défaut est bien pris en compte à 50
+- Le rayon par défaut est bien pris en compte à 50 km par défaut
+- Nettoyage d'imports inutiles dans le démon
 
 ## 05/08/2023
 
