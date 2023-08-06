@@ -14,6 +14,10 @@ Non disponible en version stable
 
 ## 06/08/2023
 
+Amélioration :
+
+- Ajout d'une entrée personnalisée dans le moteur de tâche
+
 Corrections :
 
 - Modification du nom du plugin : Impacts de foudre (Blitzortung) -> Impacts de foudre
