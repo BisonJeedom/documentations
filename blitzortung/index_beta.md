@@ -36,10 +36,16 @@ Le plugin prend en compte les impacts de foudre qui se trouvent dans le rayon d'
 
 L'information dans le rond est indiquée en temps réelle, elle indique la distance du dernier impact dans votre zone
 
-Le graphique montre les impacts de foudre sur la durée définie dans l'équipement. 3 couleurs indiquent des impacts plus ou moins proches :
+Le graphique est actualisé toutes les 5 minutes. Il montre les impacts de foudre sur la durée définie dans l'équipement. 3 couleurs indiquent des impacts plus ou moins proches :
 
 - Rouge si la distance est de 10 km et moins
 - Orange sur la distance est de 30 km et moins
 - Jaune dans les autres cas
+
+Durant cette actualisation le plugin réalise la moyenne de la quantité des impacts et de leurs distances. Si une variation continue est identifiée sur 15mn, une information sera affichée pour donner l'évolution sur 15mn et les 2 commandes "Evolution des impacts sur 15mn" et "Evolution de la distance sur 15mn" seront mis à jours de la façon suivante : 
+
+- -1 en cas de diminution du nombre d'impact / d'augmentation de la distance --> L'orage s'éloigne probablement
+- 0 si la variation n'est pas continue ou s'il n'y a pas assez d'informations pour le traitement (aucun impacts dans la durée définie)
+- 1 en cas d'augmentation du nombre d'impact / de diminution de la distance --> L'orage se rapproche probablement
 
 ![Création](images/Blitzortung_Widget.png)
