@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 13/08/2023
+
+Améliorations :
+
+- Possibilité de corriger la prévision avec un coefficient (cela peut servir pour les petits producteurs puisque Solcast ne permet pas de paramétrer en dessous de 1 kW)
+
 ## 14/07/2023
 
 Corrections :

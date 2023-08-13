@@ -56,8 +56,10 @@ Dans le détail :
 8. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
 9. (Optionnel) "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
 10. (Optionnel) "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
-11. (Optionnel) "Template horizontal" permet d'afficher le template du plugin de façon plus horizontal pour ête plus adaptée à un affichage sur tablette
-12. Les options Ne pas afficher la barre d'information "Aujourd'hui", Ne pas afficher la barre d'information "Demain", Ne pas afficher le tableau de données "Aujourd'hui",Ne pas afficher les graphiques en courbes et Ne pas afficher les informations de dernières actualisation permettent de masquer les éléments repectifs sur le template
+11. (Optionnel) "Corriger la prévision avec un coefficient" permet d'ajuster la prévision pour les petits producteurs puisque Solcast ne permet pas un paramétrage en dessous de 1 kW. Exemple : 0.8 vas transformer une prévision de 700 W en 560 W  
+12. (Optionnel) "Ne pas afficher les points sur les courbes" permet de voir une courbe sans les points  
+13. (Optionnel) "Template horizontal" permet d'afficher le template du plugin de façon plus horizontal pour ête plus adaptée à un affichage sur tablette
+14. Les options Ne pas afficher la barre d'information "Aujourd'hui", Ne pas afficher la barre d'information "Demain", Ne pas afficher le tableau de données "Aujourd'hui",Ne pas afficher les graphiques en courbes et Ne pas afficher les informations de dernières actualisation permettent de masquer les éléments repectifs sur le template
 
 Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées dans le tableau  
 
