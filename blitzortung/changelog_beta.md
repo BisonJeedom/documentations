@@ -12,6 +12,22 @@ Non disponible en version stable
 
 # Version Béta
 
+## 15/08/2023
+
+Améliorations :
+
+- Modification du template (widget) pour rendre l'affichage plus cohérent (merci ngratalou pour les idées)
+  - Des cercles pour les données live
+  - Des ellipses pour les données sur l'évolution durant les 15 dernières minutes
+  - Le nombre de cerles autour du nombre d'impacts augmente en fonction du nombre (1 si moins de 50, 2 si moins de 200 et 3 au dela)
+- Nouvelle commande indiquant l'orientation du dernier impact (en degrés par rapport au nord)
+- Extension du zoom possible jusqu'à 5 pour voir l'ensemble de la France
+
+Corrections :
+
+- L'évolution sur 15mn pouvait donner un résultat incorrect
+- Le nombre d'impact n'était pas remis à zéro s'il n'existait plus d'impacts dans le rayon choisi
+
 ## 11/08/2023
 
 Améliorations :
@@ -31,7 +47,6 @@ Corrections :
 - Prise en compte des informations qui arrivent parfois en double dans certains régions
 - Modification du paramétrage de la commande "Dernière distance" pour l'historique (Lissage : aucun ; Purge : 1 mois ; Répéter les valeurs identiques : Oui)
 
-
 ## 08/08/2023
 
 Améliorations :
@@ -40,7 +55,6 @@ Améliorations :
 - Ajout d'un bouton pour l'accès à la carte de Blitzortung
 - Ajout d'un serveur d'accès aux données
 - Mecanisme de contrôle des dépendances lors de l'installation
-
 
 Corrections :
 
