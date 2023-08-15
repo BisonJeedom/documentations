@@ -27,6 +27,7 @@ Corrections :
 
 - L'évolution sur 15mn pouvait donner un résultat incorrect
 - Le nombre d'impact n'était pas remis à zéro s'il n'existait plus d'impacts dans le rayon choisi
+- Adaptation de l'interface à la taille horizontal souhaitée dans le dashboard
 
 ## 11/08/2023
 
