@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 15/08/2023
+
+Corrections :
+
+- Correction de l'arrondi sur la nouvelle fonctionnalité de correction de la prévision à l'aide du coefficient
+
 ## 13/08/2023
 
 Améliorations :

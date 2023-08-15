@@ -6,6 +6,19 @@
 
 # Version Stable
 
+## 15/08/2023
+
+Nouveautés / Améliorations :
+
+- Possibilité de corriger la prévision avec un coefficient (cela peut servir pour les petits producteurs puisque Solcast ne permet pas de paramétrer en dessous de 1 kW)
+
+Corrections :
+
+- Le total de la journée "Prévision J+0" n'était pas calculé lors du cron de 00h45
+- Les graphiques en barre Aujourd'hui et demain devenaient illisibles quand la prévision la plus basse etait la même que la prévision la plus haute
+- Meilleure visibilité des couleurs sur les graphiques "aujourd'hui" et "demain" en version 4.4
+- Quelques changements dans les logs en debug
+
 ## 23/05/2023
 
 Nouveautés / Améliorations :

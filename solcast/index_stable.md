@@ -48,16 +48,18 @@ Dans le détail :
 2. Renseigner obligatoirement :
     - Ressource ID : Information issue du bloc précédent à l'étape 3
     - API Key : Information issue du bloc précédent à l'étape 4
-3. (Optionel) Paramétrage d'un équipement global : voir section "Paramétrage avancé" à la fin de la documentation
+3. (Optionel) Paramétrage d'un équipement global : voir section "Paramétrage avancée" à la fin de la documentation
 4. (Optionnel) Fréquence de raffraichissement des données : Toutes les 2 heures par défaut mais il est possible de demander une actualisation chaque heure si votre abonnement le permet (**Attention laisser ce paramètre par défaut si votre compte ne permet que 10 requêtes**)
-5. (Optionnel) Nombre de jour(s) de prévision(s) : chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision(s). 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
+5. (Optionnel) Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
 6. (Optionnel) Configurer au besoin l'heure de "Début de la prévision" et "Fin de la prévision" pour limiter le nombre de commandes (**Attention si votre compte ne permet que 10 requêtes**)
 7. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
 8. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
-9. (Optionnel) "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu durant la nuit.
+9. (Optionnel) "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
 10. (Optionnel) "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
-11. (Optionnel) "Template horizontal" permet d'afficher le template du plugin de façon plus horizontal pour ête plus adapté à un affichage sur tablette
-12. Les options Ne pas afficher la barre d'information "Aujourd'hui", Ne pas afficher la barre d'information "Demain", Ne pas afficher le tableau de données "Aujourd'hui",Ne pas afficher les graphiques en courbes et Ne pas afficher les informations de dernière actualisation permettent de masquer les éléments repectifs sur le template
+11. (Optionnel) "Corriger la prévision avec un coefficient" permet d'ajuster la prévision pour les petits producteurs puisque Solcast ne permet pas un paramétrage en dessous de 1 kW. Exemple : 0.8 vas transformer une prévision de 700 W en 560 W  
+12. (Optionnel) "Ne pas afficher les points sur les courbes" permet de voir une courbe sans les points  
+13. (Optionnel) "Template horizontal" permet d'afficher le template du plugin de façon plus horizontal pour ête plus adaptée à un affichage sur tablette
+14. Les options Ne pas afficher la barre d'information "Aujourd'hui", Ne pas afficher la barre d'information "Demain", Ne pas afficher le tableau de données "Aujourd'hui",Ne pas afficher les graphiques en courbes et Ne pas afficher les informations de dernières actualisation permettent de masquer les éléments repectifs sur le template
 
 Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées dans le tableau  
 
