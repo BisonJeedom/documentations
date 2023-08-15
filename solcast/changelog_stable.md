@@ -18,6 +18,7 @@ Corrections :
 - Les graphiques en barre Aujourd'hui et demain devenaient illisibles quand la prévision la plus basse etait la même que la prévision la plus haute
 - Meilleure visibilité des couleurs sur les graphiques "aujourd'hui" et "demain" en version 4.4
 - Quelques changements dans les logs en debug
+- Erreur dans les logs "Undefined variable: tendance"
 
 ## 23/05/2023
 
