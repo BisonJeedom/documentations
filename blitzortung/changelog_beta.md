@@ -12,6 +12,18 @@ Non disponible en version stable
 
 # Version Béta
 
+## 16/08/2023
+
+Améliorations :
+
+- Ajout d'un template avec une présentation "vertical" pour faciliter l'affichage sur mobile
+
+Corrections :
+
+- Erreurs relatives à la non initialisation de certaines variables (merci @phpvarious d'avoir corrigé avant moi)
+- Protection du code en cas de commandes manquantes
+
+
 ## 15/08/2023
 
 Améliorations :
