@@ -1,4 +1,6 @@
-# Documentation du plugin Impacts de foudre (version Bêta)
+# Documentation du plugin Impacts de foudre (version Stable)
+
+Version stable en phase de validation Jeedom
 
 ## Présentation
 
