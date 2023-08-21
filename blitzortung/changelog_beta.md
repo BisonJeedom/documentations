@@ -12,6 +12,22 @@ Non disponible en version stable
 
 # Version Béta
 
+## 21/08/2023
+
+Améliorations :
+
+- Début de l'optimisation du code par l'ajout d'une durée de cycle pour l'envoi des informations à Jeedom. Cette durée est paramétrable mais est de 5 secondes par défaut
+- Nouvelle commande "Délai de traitement trop important" que vous pouvez historiser pour voir les moments où Jeedom ne parvient pas à traiter les données avant le passage du prochain cycle
+- Ajout d'un nouveau widget "Minimal" en collaboration avec @Bad, merci à lui !
+- Ajout d'un bouton pour automatiser l'ouverture d'un post sur Community (merci @tomitomas)
+- Démarrage travail de cohérence sur le code des templates (non visible)
+
+Corrections :
+
+- Le bouton d'accès à la documentation n'était pas actif
+- Les minutes n'apparaissait plus si la fenêtre était trop réduite et si le nombre d'heure de rétention était trop grand : modification de l'interval
+
+
 ## 16/08/2023
 
 Améliorations :
@@ -28,7 +44,7 @@ Corrections :
 
 Améliorations :
 
-- Modification du template (widget) pour rendre l'affichage plus cohérent (merci ngratalou pour les idées)
+- Modification du template (widget) pour rendre l'affichage plus cohérent (merci @ngratalou pour les idées)
   - Des cercles pour les données live
   - Des ellipses pour les données sur l'évolution durant les 15 dernières minutes
   - Le nombre de cerles autour du nombre d'impacts augmente en fonction du nombre (1 si moins de 50, 2 si moins de 200 et 3 au dela)
