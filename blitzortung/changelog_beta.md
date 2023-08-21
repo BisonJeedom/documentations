@@ -17,6 +17,7 @@ Non disponible en version stable
 Améliorations :
 
 - Début de l'optimisation du code par l'ajout d'une durée de cycle pour l'envoi des informations à Jeedom. Cette durée est paramétrable mais est de 5 secondes par défaut
+- Utilisation du cache pour moins solliciter la base de données
 - Nouvelle commande "Délai de traitement trop important" que vous pouvez historiser pour voir les moments où Jeedom ne parvient pas à traiter les données avant le passage du prochain cycle
 - Ajout d'un nouveau widget "Minimal" en collaboration avec @Bad, merci à lui !
 - Ajout d'un bouton pour automatiser l'ouverture d'un post sur Community (merci @tomitomas)
