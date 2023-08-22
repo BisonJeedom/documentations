@@ -6,11 +6,17 @@
 
 # Version Stable
 
-Non disponible en version stable
+Voir le changelog de la version stable ici : [Changelog Stable](https://github.com/BisonJeedom/documentations/blob/main/blitzortung/changelog_stable.md)
 
 <hr/>
 
 # Version Béta
+
+## 22/08/2023
+
+- Optimisation du processus pour filtrer les évènements post-traitement par Jeedom et réduire la charge. *Attention*, il est nécéssaire de redémarrer le démon à chaque modification des coordonnées d'un équipement
+- Modification du calcul de la distance jusqu'au point d'impact (abandon du calcul de la distance orthodromique)
+- Correction des templates pour être plus fonctionnel avec Jeedom < 4.4
 
 ## 21/08/2023
 
@@ -20,14 +26,13 @@ Améliorations :
 - Utilisation du cache pour moins solliciter la base de données
 - Nouvelle commande "Délai de traitement trop important" que vous pouvez historiser pour voir les moments où Jeedom ne parvient pas à traiter les données avant le passage du prochain cycle
 - Ajout d'un nouveau widget "Minimal" en collaboration avec @Bad, merci à lui !
-- Ajout d'un bouton pour automatiser l'ouverture d'un post sur Community (merci @tomitomas)
+- Jeedom v4.4 : Ajout d'un bouton pour automatiser l'ouverture d'un post sur Community (merci @tomitomas)
 - Démarrage travail de cohérence sur le code des templates (non visible)
 
 Corrections :
 
 - Le bouton d'accès à la documentation n'était pas actif
 - Les minutes n'apparaissait plus si la fenêtre était trop réduite et si le nombre d'heure de rétention était trop grand : modification de l'interval
-
 
 ## 16/08/2023
 
@@ -39,7 +44,6 @@ Corrections :
 
 - Erreurs relatives à la non initialisation de certaines variables (merci @phpvarious d'avoir corrigé avant moi)
 - Protection du code en cas de commandes manquantes
-
 
 ## 15/08/2023
 
