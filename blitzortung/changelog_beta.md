@@ -12,10 +12,31 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 28/08/2023
+
+Améliorations :
+
+- Nouveau paramètre "Commande binaire déclenchant l'écoute des évènements"  
+Ce paramètre permet de mettre en pause le processus d'écoute des impacts quand la commande est fausse et ainsi de réduire considérablement l'utilisation des ressources quand il n'y a pas de risques d'orage (merci @tomdom pour l'aide sur ce sujet)  
+A vous de créer cette commande et de l'alimenter, par exemple à partir des prévisions d'un autre plugin (Metéo France...)
+- Ajout d'un icône "orage" dans la barre de l'équipement quand la commande binaire devient vraie
+- Validation des données de latitude, longitude et du rayon pour que le démon puisse s'éxécuter
+- Redémarrage automatique du démon en cas de changements (latitude, longitude ou rayon) sur un équipement
+
+Corrections :
+
+- Ajustement de la flêche d'orientation sur les templates "Horizontal" et "Vertical"
+- Les icônes "map" et "info" n'étaient pas visibles en theme light
+
 ## 22/08/2023
+
+Améliorations :
 
 - Optimisation du processus pour filtrer les évènements post-traitement par Jeedom et réduire la charge. *Attention*, il est nécéssaire de redémarrer le démon à chaque modification des coordonnées d'un équipement
 - Modification du calcul de la distance jusqu'au point d'impact (abandon du calcul de la distance orthodromique)
+
+Corrections :
+
 - Correction des templates pour être plus fonctionnel avec Jeedom < 4.4
 
 ## 21/08/2023
