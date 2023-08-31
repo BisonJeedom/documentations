@@ -12,6 +12,23 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 31/08/2023
+
+Améliorations :
+
+- Renommage du paramètre "Commande binaire déclenchant l'écoute des évènements" en "Expression déclenchant l'écoute" puisqu'il est possible à présent de lui indiquer une expression  
+Exemple : #[Blitz][Blitz][Probabilité Orage]# > 3
+- Ajout d'un graphique "radar" permettant de voir les impacts en fonction de l'orientation et de la distance
+- Ajout d'un paramètre "Visualiser les impacts récents sur" pour voir les impacts récents dans une couleur différente pendant 5, 10 ou 15mn
+- Mise en place d'un caroussel pour selectionner l'un ou l'autre des graphiques
+- Ajout d'un paramètre "Graphique par défaut" pour choisir entre le graphique initial (Distance / Temps) ou le nouveau graphique Radar (Distance / Angle)
+
+Corrections :
+
+- Le changement d'un des paramètres provoquant le redémarrage du démon relançait celui-ci toutes les 5mn
+- La commande "Délai de traitement trop important" n'était pas mise à jour
+- L'icône "orage" n'était pas toujours correctement géré suivant le statut du paramètre permettant de déclencher l'écoute des évènements
+
 ## 28/08/2023
 
 Améliorations :
