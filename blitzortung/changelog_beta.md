@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 01/09/2023
+
+Corrections :
+
+- Impossible de selectionner une commande autre que binaire pour "Expression déclenchant l'écoute"
+
 ## 31/08/2023
 
 Améliorations :
