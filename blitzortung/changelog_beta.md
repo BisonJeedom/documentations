@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 04/09/2023
+
+Améliorations :
+
+- Mise à jour de la documentation
+- Configuration de la valeur maximum du rayon pour mieux voir les impacts sur le graphioque Radar (merci @Bad)
+
+Corrections :
+
+- Les paramètres Latitude et Longitude étaient parfois avec des virgules et parfois avec des points sans que cela n'est d'incidence sur le fonctionnement (merci @sagitaz)
+- Ajout de la source sur l'ensemble des graphiques
+
 ## 01/09/2023
 
 Corrections :
