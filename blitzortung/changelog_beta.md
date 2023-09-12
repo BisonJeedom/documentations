@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 12/09/2023
+
+Corrections :
+
+- Ajout d'intervals forcés tout les 10km sur le graphique Radar car ils n'étaient pas automatiquement calculés suivant le rayon choisi
+
+
 ## 04/09/2023
 
 Améliorations :
