@@ -12,11 +12,23 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 16/09/2023
+
+Améliorations / Changements :
+
+- Refonte du mecanisme de récupération des impacts
+  - Disparition du démon
+  - Raffraichissement des impacts chaque minute depuis un serveur tier (un grand merci à @Bad pour l'hébergement et la modification du code concernant cette partie)
+  - Plus d'impacts sur les performances puisque cette partie est réalisé sur un serveur et non plus dans un Démon
+- Ajout d'un template mobile (un grand merci à @Spine pour cette contribution)
+- Amélioration de la visibilité du graphique Radar et adaptation aux thèmes Dark / Light (Merci @Spine)
+- Disparition de la commande "Expression déclenchant l'écoute" qui devient inutile
+
 ## 12/09/2023
 
 Corrections :
 
-- Ajout d'intervals forcés tout les 10km sur le graphique Radar car ils n'étaient pas automatiquement calculés suivant le rayon choisi
+- Ajout d'intervalles forcés tout les 10km sur le graphique Radar car ils n'étaient pas automatiquement calculés suivant le rayon choisi
 
 
 ## 04/09/2023
