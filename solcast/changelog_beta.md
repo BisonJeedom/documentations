@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 17/09/2023
+
+Améliorations :
+
+- Lors d'un nouveau jour c'est à présent l'index de la production qui sert de point de départ et non plus la valeur 0. Cela évitera le 1er pic lors d'un nouvelle installation du plugin
+
 ## 15/08/2023
 
 Corrections :
