@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 22/09/2023
+
+Corrections :
+
+- Les calculs de production pouvaient ne pas être fait dans le cas d'un trop grand nombre d'équipements car dépassement de la 5eme minutes -> réduction des temps de pause à 2s entre chaque équipement
+
 ## 17/09/2023
 
 Améliorations :
