@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 24/09/2023
+
+Améliorations / Ajustements :
+
+- API v2 : Interrogation de l'API avec latitude, longitude et rayon en transmettant des coordonnées aléatoires autour du point pour réduire la quantité de données
+- Interrogation aléatoire entre 0 et 40 secondes pour ne pas flooder le serveur
+- Ajout d'icônes sur le widget si le plugin ne peux plus communiquer avec le serveur et si le serveur ne reçoit plus d'impacts dans les 5mn afin d'indiquer un problème potentiel
+
+Corrections :
+
+- Utilisation d'un timestamp classique à 10 digits pour l'envoi du payload et et l'anayse des données reçues
+
 ## 16/09/2023
 
 Améliorations / Changements :
@@ -29,7 +41,6 @@ Améliorations / Changements :
 Corrections :
 
 - Ajout d'intervalles forcés tout les 10km sur le graphique Radar car ils n'étaient pas automatiquement calculés suivant le rayon choisi
-
 
 ## 04/09/2023
 
