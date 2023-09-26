@@ -12,6 +12,17 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 26/09/2023
+
+Améliorations / Ajustements :
+
+- Aucun appel à l'API si aucun équipement n'est actif
+- Message de warning dans les logs lorsqu'un équipement à un rayon supérieur à 200 km ce qui ne permet plus de récupérer les données depuis l'API
+
+Corrections :
+
+- Modification de la fonction de génération d'un point GPS aléatoire car elle pouvait poser problème
+
 ## 24/09/2023
 
 Améliorations / Ajustements :
