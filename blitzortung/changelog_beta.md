@@ -23,7 +23,7 @@ Améliorations / Ajustements :
 
 Corrections :
 
-- Erreur de traitement après la création d'un premier équipement à cauche du cache (merci @Bad)
+- Erreur de traitement après la création d'un premier équipement à cause du cache (merci @Bad)
 - L'entrée dans le moteur de tâche était défini à 5mn au lieu d'une minute quand elle n'existait pas (merci @Spine pour le signalement)
 
 ## 26/09/2023
