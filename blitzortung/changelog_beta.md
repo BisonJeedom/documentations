@@ -12,6 +12,20 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 28/09/2023
+
+Améliorations / Ajustements :
+
+- Validation du format de la latitude, longitude et rayon au moment de sauver l'équipement (cette validation avait disparue avec le démon)
+- Suppression des fichiers inutiles (merci @Bad)
+- Nettoyage du code inutilisé (merci @Bad)
+- Modification de certain niveau de log pour que le log "info" soit plus leger (merci @Bad)
+
+Corrections :
+
+- Erreur de traitement après la création d'un premier équipement à cauche du cache (merci @Bad)
+- L'entrée dans le moteur de tâche était défini à 5mn au lieu d'une minute quand elle n'existait pas (merci @Spine pour le signalement)
+
 ## 26/09/2023
 
 Améliorations / Ajustements :
