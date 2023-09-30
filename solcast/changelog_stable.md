@@ -6,6 +6,16 @@
 
 # Version Stable
 
+## 30/09/2023
+
+Améliorations :
+
+- Lors d'un nouveau jour c'est à présent l'index de la production qui sert de point de départ et non plus la valeur 0. Cela évitera le 1er pic lors d'un nouvelle installation du plugin
+
+Corrections :
+
+- Les calculs de production pouvaient ne pas être fait dans le cas d'un trop grand nombre d'équipements car dépassement de la 5eme minutes -> réduction des temps de pause à 2s entre chaque équipement
+
 ## 15/08/2023
 
 Nouveautés / Améliorations :
