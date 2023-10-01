@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 01/10/2023
+
+Améliorations :
+
+- Ajout d'une case à coché pour ceux qui utilisent un index de production journalier car le calcul de production pouvait être incorrecte suite à la précédente version
+
 ## 22/09/2023
 
 Corrections :
