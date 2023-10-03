@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 03/10/2023
+
+Corrections :
+
+- Passage d'une valeur forcée de type int à l'API car parfois en string (merci @Bad)
+
 ## 28/09/2023
 
 Améliorations / Ajustements :
