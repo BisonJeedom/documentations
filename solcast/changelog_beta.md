@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 09/10/2023
+
+Corrections :
+
+- Production restait à 0 pour le mois et l'année sur un équipement global (2eme correction)
+
 ## 04/10/2023
 
 Corrections :
