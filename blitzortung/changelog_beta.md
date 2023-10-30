@@ -12,7 +12,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
-## 28/09/2023
+## 30/10/2023
 
 Améliorations / Ajustements :
 - Amélioration du widget mobile pour ajouter le graphique radar. Le choix de l'affichage est à faire dans la configuraiton de l'équipement (Merci @Spine)
