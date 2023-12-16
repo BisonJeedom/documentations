@@ -6,17 +6,21 @@
 
 # Version Stable
 
+## 16/12/2023
+
+Corrections :
+
+- Potentielle erreur "Unsupported operand types: string * int" lors du cron de xxh45
 
 ## 05/11/2023
 
 Améliorations :
 
-- Ajout d'une case à coché pour ceux qui utilisent un index de production journalier car le calcul de production pouvait être incorrecte
+- Ajout d'une case à coché pour ceux qui utilisent un index de production journalier car le calcul de production pouvait être incorrect
 
 Corrections :
 
 - La production restait à 0 pour le mois et l'année sur un équipement global
-
 
 ## 30/09/2023
 

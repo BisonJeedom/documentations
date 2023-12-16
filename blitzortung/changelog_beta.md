@@ -12,12 +12,20 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 03/11/2023
+
+Corrections :
+
+- Correction d'une erreur "Undefined offset" qui apparait sur Jededom 4.4
+
 ## 30/10/2023
 
 Améliorations / Ajustements :
+
 - Amélioration du widget mobile pour ajouter le graphique radar. Le choix de l'affichage est à faire dans la configuration de l'équipement (Merci @Spine)
 
 Corrections :
+
 - Un nouvel équipement ne pouvait pas être crée s'il n'y avait pas de coordonnées GPS définies au niveau Jeedom (Merci @Spine)
 
 ## 03/10/2023
