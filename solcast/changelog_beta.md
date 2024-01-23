@@ -12,6 +12,14 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 23/01/2024
+
+Améliorations :
+
+- Ajout de deux commandes "Ecart entre la production et la prévision" et "Ecart entre la production et la prévision (pourcentage)". Elles permettent de connaitre l'écart entre la production et la prévision évolutive à chaque mise à jour de la production (xxh05). Elles pourraient par exemple service à pondérer la mise en service d'appareil qui serait uniquement basé sur la prévision
+- Ajout de 2 courbes (maximum et suivant le nombre de jour de prévision choisi dans les paramètres). "Demain" et "Après-demain" sont accessibles après la courbe "Aujourd'hui" et montrer la courbe de prévision pour ces journées.
+- Ajout d'une étiquette "Max" sur la courbe pour visualiser rapidement le maximum de la prévision évolutive dans la journée
+
 ## 20/11/2023
 
 Corrections :

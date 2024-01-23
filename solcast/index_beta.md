@@ -97,6 +97,7 @@ Lors du cron de 0h45 ces commandes sont remises à zéro
 - 2 commandes "Prévision J+0 à 6h de la journée complète" et "Prévision J+0 de la journée complète" qui permettent de voir la courbe de prévision de la journée dans un graphique historique dès le début de la journée (Jeedom, JeedomConnect, ...). La courbe à 6h ne bouge pas mais l'autre évoluera avec l'affinage de la prévision au fil des heures.  
 Pour les visualiser dans Jeedom il faut "Autoriser les dates dans le futur" (Réglages > Système > Configuration > Equipements)
 Pour les visualiser dans Jeedom Connect il faut être en version 1.7.1 et activer le mode "Dates dans le futur" dans le widget Historique
+- 2 "Ecart entre la production et la prévision" et "Ecart entre la production et la prévision (pourcentage)" qui permettent de connaitre l'écart entre la production et la prévision évolutive à chaque mise à jour de la production (xxh05)
 
 Exemple de vue dans Jeedom :
 ![Création](images/SolCast_vue.png)
