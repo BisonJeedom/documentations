@@ -12,8 +12,9 @@ Aucun paramétrage n'est nécéssaire
 
 Après la création d'un diagramme :
 
-- paramétrer le groupe de scénarios parmis la liste [**obligatoire**]
-- ajouter une description pour décrire ce que représente ce diagramme
+1 - paramétrer le groupe de scénarios parmis la liste [**obligatoire**]
+2 - ajouter une description pour décrire ce que représente ce diagramme
+3 - sur le widget, cliquer sur la double-flêche pour demander la mise à jour du diagramme
 
 ## Informations et principe de fonctionnement
 
@@ -26,6 +27,8 @@ Le plugin propose de montrer les relations entres les scénarios et des différe
 Un diagramme doit être configuré avec un groupe de scénario
 
 Le plugin analysera les scénarios de ce groupe et constituera un diagramme relationnel permettant d'avoir une bonne visibilité des relations et des déclencheurs pour, par exemple, avoir vue macro de la gestion de son chauffage et pouvoir consitituer une documentation
+
+A 00h30 le plugin effectuera une vérification des diagrammes à la recherche d'éléments qui auraient été modifiés depuis la dernière mise à jour (relation entre les éléments, déclencheurs, description des scénarios)
 
 ## Colorisation des éléments du diagramme
 
