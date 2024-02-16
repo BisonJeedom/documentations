@@ -32,7 +32,7 @@ A 00h30 le plugin effectuera une vérification des diagrammes à la recherche d'
 
 ## Colorisation des éléments du diagramme
 
-Les scénarios faisant partie du groupe paramétré sont représentés avec la couleur "mediumturquoise"
-Les scénarios ne faisant pas partie du groupe paramétré sont représentés avec la couleur "blanc"
+Les scénarios faisant partie du groupe sont représentés avec la couleur "mediumturquoise"
+Les scénarios ne faisant pas partie du groupe sont représentés avec la couleur "blanc"
 Les actions de déclenchement sont représenté avec la couleur "wheat"
 La note attachée au diagramme est représenté avec la couleur "palegreen"
