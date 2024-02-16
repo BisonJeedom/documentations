@@ -36,3 +36,8 @@ Les scénarios faisant partie du groupe sont représentés avec la couleur "medi
 Les scénarios ne faisant pas partie du groupe sont représentés avec la couleur "blanc"
 Les actions de déclenchement sont représenté avec la couleur "wheat"
 La note attachée au diagramme est représenté avec la couleur "palegreen"
+
+## Remerciements
+
+- Aux concepteurs de <https://yuml.me> sur lequel le plugin se repose pour la création des éléments graphiques
+- @Furaxworld pour la conception du logo
