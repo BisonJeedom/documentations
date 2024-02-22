@@ -6,7 +6,7 @@ Ce plugin permet de visualiser la relation les scénarios et les déclencheurs d
 
 ## Paramétrage général
 
-Aucun paramétrage n'est nécéssaire
+La couleur des différents bloc peuvent être paramétrés à cet endroit (voir section "Colorisation des éléments du diagramme")
 
 ## Création et paramétrage d'un diagramme
 
@@ -30,12 +30,13 @@ Le plugin analysera les scénarios de ce groupe et constituera un diagramme rela
 
 A 00h30 le plugin effectuera une vérification des diagrammes à la recherche d'éléments qui auraient été modifiés depuis la dernière mise à jour (relation entre les éléments, déclencheurs, description des scénarios)
 
-## Colorisation des éléments du diagramme
+## Colorisation des éléments du diagramme (paramétrable)
 
 Les scénarios faisant partie du groupe sont représentés avec la couleur "mediumturquoise"
-Les scénarios ne faisant pas partie du groupe sont représentés avec la couleur "blanc"
 Les actions de déclenchement sont représenté avec la couleur "wheat"
+Les déclenchements liés au plugins sont représenté avec la couleur "orchid"
 La note attachée au diagramme est représenté avec la couleur "palegreen"
+Les scénarios ne faisant pas partie du groupe sont représentés avec la couleur "blanc"
 
 ## Remerciements
 

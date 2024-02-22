@@ -12,15 +12,28 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
-BUGS CONNUS sur Jeedom 4.3 :
-- Suite à la création d'un diagramme ou après sa modification, il faut raffrachir la page pour que les éléments du widgets soient cliquables
+## 22/02/2024
+
+Améliorations :
+
+- Possibilité de choisir la couleur des différents blocs dans la configuration du plugin
+- Ajout des relations avec le plugin "Mode"
+
+Corrections :
+
+- Les éléments sont à présent cliquables sans raffraichir la page après une modification de la configuration
+- Ajustement de l'amplitude du zoom in/out
 
 ## 18/02/2024
+
+Améliorations :
 
 - Ajout d'une barre de zoom in/out sur l'image d'un diagramme
 - Une vérification des relations sera effectuée immediatement après la modification du groupe d'un diagramme
 
 ## 17/02/2024
+
+Corrections :
 
 - Correction dans le parcours des scénarios car il pouvait y avoir des éléments en double
 - Suppression de la bordure encadrant la descrption dans le widget s'il n'y a pas de description
