@@ -12,9 +12,16 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 25/02/2024
+
+Améliorations / Nouveautés :
+
+- Possibilité d'exclure un groupe de scénarios
+- Possibilité de coloriser les éléments inactifs en gris
+
 ## 22/02/2024
 
-Améliorations :
+Améliorations / Nouveautés :
 
 - Possibilité de choisir la couleur des différents blocs dans la configuration du plugin
 - Ajout des relations avec le plugin "Mode"
@@ -26,7 +33,7 @@ Corrections :
 
 ## 18/02/2024
 
-Améliorations :
+Améliorations / Nouveautés :
 
 - Ajout d'une barre de zoom in/out sur l'image d'un diagramme
 - Une vérification des relations sera effectuée immediatement après la modification du groupe d'un diagramme

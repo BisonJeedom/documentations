@@ -12,9 +12,11 @@ La couleur des différents bloc peuvent être paramétrés à cet endroit (voir 
 
 Après la création d'un diagramme :
 
-1 - paramétrer le groupe de scénarios parmis la liste [**obligatoire**]
-2 - ajouter une description pour décrire ce que représente ce diagramme
-3 - sur le widget, cliquer sur la double-flêche pour demander la mise à jour du diagramme
+- Paramétrer le groupe de scénarios à parcourir [**obligatoire**]
+- Paramétrer un groupe de scénario à exclure du diagramme [facultatif]
+- Ajouter une description pour décrire ce que représente ce diagramme [facultatif]
+- Une case à cocher permet de demander la colorisation des éléments inactifs en gris
+- Sur le widget, cliquer sur la double-flêche pour demander la création / mise à jour du diagramme
 
 ## Informations et principe de fonctionnement
 
@@ -35,8 +37,9 @@ A 00h30 le plugin effectuera une vérification des diagrammes à la recherche d'
 Les scénarios faisant partie du groupe sont représentés avec la couleur "mediumturquoise"
 Les actions de déclenchement sont représenté avec la couleur "wheat"
 Les déclenchements liés au plugins sont représenté avec la couleur "orchid"
-La note attachée au diagramme est représenté avec la couleur "palegreen"
 Les scénarios ne faisant pas partie du groupe sont représentés avec la couleur "blanc"
+Les scénarios inactifs peuvent être colorisé en gris si la case est cochée dans les paramètres spécifiques du diagramme
+La note attachée au diagramme est représenté avec la couleur "palegreen"
 
 ## Remerciements
 
