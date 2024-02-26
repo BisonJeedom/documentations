@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 26/02/2024
+
+Corrections :
+
+- Pour éviter qu'une partie du texte concernant la colorisation des éléments inactifs ne passe à la ligne
+
 ## 25/02/2024
 
 Améliorations / Nouveautés :
