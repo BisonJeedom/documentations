@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 26/02/2024
+
+Corrections :
+
+- Correction d'erreurs "Undefined offset" qui apparait sur Jededom 4.4
+
 ## 03/11/2023
 
 Corrections :
