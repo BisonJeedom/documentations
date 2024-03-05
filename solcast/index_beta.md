@@ -52,7 +52,7 @@ Dans le détail :
 4. (Optionnel) Fréquence de raffraichissement des données : Toutes les 2 heures par défaut mais il est possible de demander une actualisation chaque heure si votre abonnement le permet (**Attention laisser ce paramètre par défaut si votre compte ne permet que 10 requêtes**)
 5. (Optionnel) Nombre de jour de prévision : Chiffre entre 1 (par défaut) et 4 correspondant au nombre de jour(s) de prévision. 1 jour correspond au jour en cours. Je recommande de ne pas aller au delà de 2 jours dans un premier temps pour ne pas créer des commandes inutilement
 6. (Optionnel) Configurer au besoin l'heure de "Début de la prévision" et "Fin de la prévision" pour limiter le nombre de commandes (**Attention si votre compte ne permet que 10 requêtes**)
-7. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1
+7. (Optionnel) Choisir le "Niveau de détail des commandes" : Si vous choisissez "Minimal" (par défault) les commandes principales ne seront générées et visibles que pour "Jour 0", même si vous choisissez un nombre de jour de prévision supérieur à 1. Cela impact l'affichage des courbes (voir section "Les courbes et graphiques")
 8. (Optionnel) Indiquer votre commande d'index de production dans "Commande index total de production"  
 9. (Optionnel) "Ignorer l'avertissement d'index anormal" permet de ne plus recevoir d'avertissement si l'index de production redescend, ce qui pourrait-être le cas d'une installation qui consomme un peu dirant la nuit.
 10. (Optionnel) "Utiliser le template du plugin" permet d'afficher le template du plugin à la place d'une suite de commandes  
@@ -63,9 +63,24 @@ Dans le détail :
 
 Note : Afin d'économiser de la place en largeur, les heures pour lesquelles les données de prévision sont nulles ne sont pas affichées dans le tableau  
 
+## Les courbes et graphiques
+
+Le widget affiche plusieurs informations (suivant le paramétrage de votre équipement - Section "Création d'un site dans le plugin SolCast") :  
+
+- Les données, sous forme de barre, de la prévision et de la production du jour
+- Les données, sous forme de barre, de la prévision du lendemain
+- Les données, sous forme de tableau, de la prévision et de la production du jour
+- Plusieurs courbes dont :
+  - Les courbes de prévision à 6h, prévision évolutive et production pour Aujourd'hui
+  - Les courbes de prévision à 6h, prévision évolutive et production pour Demain (si Affichage Maximal et nombre de jour supérieur ou égal à 2)
+  - Les courbes de prévision à 6h, prévision évolutive et production pour Après-Demain (si Affichage Maximal et nombre de jour supérieur ou égal à 3)
+  - Les courbes de prévision à 6h, prévision évolutive et production pour le mois en cours
+  - Des colonnes de prévision à 6h, prévision évolutive et production pour une année glissante
+
 Quelques captures et explications des données :  
 ![Création](images/SolCast_template.png)
 ![Création](images/SolCast_template_part1.png)![Création](images/SolCast_template_part2.png)  
+![Création](images/SolCast_template_graphique_demain.png)![Création](images/SolCast_template_graphique_apresdemain.png)  
 ![Création](images/SolCast_template_graphique_mois.png)![Création](images/SolCast_template_graphique_annee.png)
 
 ## Cron
