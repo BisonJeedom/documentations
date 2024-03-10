@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 10/03/2024
+
+Corrections :
+
+- Potentielle erreur "Unsupported operand types: int + string" lors du cron de xxh05
+
 ## 05/03/2024
 
 Corrections :

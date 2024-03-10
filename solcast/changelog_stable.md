@@ -6,6 +6,16 @@
 
 # Version Stable
 
+## 10/03/2024
+
+Corrections :
+
+- Suppression de l'affichage d'un Warning dans les logs si des commandes n'existent pas du fait du paramètre "Niveau de détail des commandes" à Minimal
+- Les courbes Demain et Après-Demain ne s'afficheront plus si "Niveau de détail des commandes" est paramétré à Minimal (car ces courbes ont besoin de commandes qui n'existent pas à ce niveau de détail)
+- L'étiquette Max ne sera plus affichée sur la courbe évolutive si la valeur est nulle
+- Les courbes débutaient une heure trop tôt (pour ne pas afficher si la prévision est nulle)
+- Potentielle erreur "Unsupported operand types: int + string" lors du cron de xxh05
+
 ## 03/03/2024
 
 Améliorations :
