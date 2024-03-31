@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 31/03/2024
+
+Corrections :
+
+- Erreur "Invalid argument supplied for foreach()" (merci @Phpvarious)
+
 ## 26/02/2024
 
 Corrections :
