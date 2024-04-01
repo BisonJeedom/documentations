@@ -112,12 +112,14 @@ Lors du cron de 0h45 ces commandes sont remises à zéro
 - 2 commandes "Prévision J+0 à 6h de la journée complète" et "Prévision J+0 de la journée complète" qui permettent de voir la courbe de prévision de la journée dans un graphique historique dès le début de la journée (Jeedom, JeedomConnect, ...). La courbe à 6h ne bouge pas mais l'autre évoluera avec l'affinage de la prévision au fil des heures.  
 Pour les visualiser dans Jeedom il faut "Autoriser les dates dans le futur" (Réglages > Système > Configuration > Equipements)
 Pour les visualiser dans Jeedom Connect il faut être en version 1.7.1 et activer le mode "Dates dans le futur" dans le widget Historique
-- 2 "Ecart entre la production et la prévision" et "Ecart entre la production et la prévision (pourcentage)" qui permettent de connaitre l'écart entre la production et la prévision évolutive à chaque mise à jour de la production (xxh05)
+- 2 commandes "Ecart entre la production et la prévision" et "Ecart entre la production et la prévision (pourcentage)" qui permettent de connaitre l'écart entre la production et la prévision évolutive à chaque mise à jour de la production (xxh05)
+- 2 commandes "Durée de fonctionnement pour retour heure de démarrage" et "Heure de démarrage en fonction de la durée demandée" :  
+  Envoyer une valeur numérique (en nombre de minutes) dans la commande "Durée de fonctionnement pour retour heure de démarrage  
+  En retour le plugin alimentera la commande "Heure de démarrage en fonction de la durée demandée" avec la meilleure heure de démarrage pour maximiser l'utilisation de la production  
+  Il est donc possible de planifier, par scénario, le démarrage d'un équipement qui va tourner, par exemple, pendant 90mn, en le faisant au plus tôt et au sommet de la production  
+  Si l'heure à laquelle il aurait fallut mettre en service est dépassée, le retour sera l'heure actuelle + 1 minute
 
-Exemple de vue dans Jeedom :
-![Création](images/SolCast_vue.png)
-
-# Utilisation et pincipes de fonctionnement
+# Utilisation et principes de fonctionnement
 
 L'utilisation principale est de connaitre la quantité de Watts qui sera produite pour chaque tranche horaire afin de prévoir de faire fonctionner des équipements au bon moment (chauffe-eau, pompe, etc ...)  
 Un comparatif entre les données du jour et du lendemain permette de reporter ou d'avancer l'utilisation des équipements consommateurs

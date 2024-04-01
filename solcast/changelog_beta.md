@@ -12,6 +12,21 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 01/04/2024
+
+Améliorations :
+
+- Nouveau template pour un accès depuis les mobiles en gardants les mêmes éléments que le template dashboard mais dans l'idée d'être plus facilement utilisable sur mobile (taille de certains caractères, caroussel sur les 2 premiers bargraphs, position des chevrons, etc ...)
+- 2 nouvelles commandes permettant de demander au plugin l'heure de démarrage la plus rentable pour mettre en route un appareil (voir documentation et exemple de scénario dans la configuration de l'équipement)
+- Les pluparts des paramètres seront maintenant pré-remplis à la création d'un équipement
+- {Tableau} Les lignes de l'heure, de la prévision et de la production sont en gras pour mieux les distinguer
+- {Tableau} Nouvelle option de paramétrage pour coloriser la ligne de prévision de la même couleur que la fiabilité du jour
+- Meilleure prise en compte d'un problème lors de la récupération des données (comme le non remplissage d'un élément sur le rooftop solcast)
+
+Corrections :
+
+- Ajout de l'unité manquante (Wh) sur la commande "Ecart entre la production et la prévision"
+
 ## 10/03/2024
 
 Corrections :
