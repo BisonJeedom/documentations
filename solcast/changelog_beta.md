@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 02/04/2024
+
+Corrections :
+
+- La récupération des données pouvaient être correcte mais étaient rejetée par le plugin
+- Affichage incorrect des données de la meilleure heure de démarrage quand le template était en mode horizontal
+
 ## 01/04/2024
 
 Améliorations :
