@@ -12,11 +12,22 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 28/04/2024
+
+Améliorations :
+
+- {Template mobile} Mise à jour du template mobile pour affichage sur la totalité de l'écran et ajout d'un template réduit (uniquement texte) pour affichage sur la moitié de l'écran
+- Travail sur les lignes de logs pour plus de lisibilité en mode debug
+
+Corrections :
+
+- Non cohérence entre l'affichage du tableau et des courbes de prévision (bug probablement introduit en mars 2024)
+
 ## 02/04/2024
 
 Corrections :
 
-- La récupération des données pouvaient être correcte mais étaient rejetée par le plugin
+- La récupération des données pouvaient être correcte mais étaient rejeté par le plugin
 - Affichage incorrect des données de la meilleure heure de démarrage quand le template était en mode horizontal
 
 ## 01/04/2024
