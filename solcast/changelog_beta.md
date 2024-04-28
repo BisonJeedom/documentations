@@ -17,6 +17,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 Améliorations :
 
 - {Template mobile} Mise à jour du template mobile pour affichage sur la totalité de l'écran et ajout d'un template réduit (uniquement texte) pour affichage sur la moitié de l'écran
+- La commande "Prévision heure suivante" sera mise à jour chaque heure si le paramétrage de la fréquence de raffraichissement est définie toutes les 2 heures (sans récupération des nouvelles  les données)
 - Travail sur les lignes de logs pour plus de lisibilité en mode debug
 
 Corrections :
