@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 02/05/2024
+
+Améliorations :
+
+- {Template mobile} Ajout d'informations sur le template mobile complet
+
+Corrections :
+
+- {commandes} La commande "Heure de démarrage en fonction de la durée demandée" donnait un résultat une heure trop tard
+- {Template mobile} La bascule entre le choix du template mobile complet ou réduit ne se faisait pas correctement
+- {Template mobile} Correction de l'affichage pour éviter un décalage sur certains mobiles
+
 ## 28/04/2024
 
 Améliorations :
