@@ -1,7 +1,5 @@
 # Documentation du plugin Diagramme relationnel (version Stable)
 
-02/032024 : Validation de la version stable en cours par Jeedom SAS
-
 ## Présentation
 
 Ce plugin permet de visualiser la relation les scénarios et les déclencheurs de premier niveau

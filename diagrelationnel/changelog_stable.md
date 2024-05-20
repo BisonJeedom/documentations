@@ -6,7 +6,9 @@
 
 # Version Stable
 
-Il n'y a pas de version stable de ce plugin
+## 29/04/2024
+
+Livraison de la version stable
 
 # Version Bêta
 
