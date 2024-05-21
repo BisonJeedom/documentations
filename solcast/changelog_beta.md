@@ -12,6 +12,19 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 21/05/2024
+
+Merci @noodom et @Phpvarious pour la fonction de chargement des JS externes et pour la librairie du carousel
+
+Améliorations :
+
+- {Template} Passage en full JS, changement de la librairie du carousel, suppression du timeout pour l'affichage des graphiques
+- {Template mobile} Passage en full JS, changement de la librairie du carousel, suppression du timeout pour l'affichage des graphiques et amélioration du positionnement des éléments
+
+Corrections :
+
+- {Template} Il pouvait arriver que les graphiques ne s'affichaient pas sur certaines configurations
+
 ## 02/05/2024
 
 Améliorations :
@@ -41,7 +54,7 @@ Corrections :
 
 Corrections :
 
-- La récupération des données pouvaient être correcte mais étaient rejeté par le plugin
+- La récupération des données pouvaient être correcte mais étaient rejetée par le plugin
 - Affichage incorrect des données de la meilleure heure de démarrage quand le template était en mode horizontal
 
 ## 01/04/2024
