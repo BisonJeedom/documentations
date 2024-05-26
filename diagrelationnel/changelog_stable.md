@@ -6,6 +6,16 @@
 
 # Version Stable
 
+## 26/05/2024
+
+Améliorations / Nouveautés :
+
+- Support Fulls JS sur le widget (pour Jeedom > 4.4)
+
+Corrections :
+
+- Correction des liens vers la doc et le changelog
+
 ## 29/04/2024
 
 Livraison de la version stable
