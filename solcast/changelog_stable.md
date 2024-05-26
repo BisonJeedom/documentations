@@ -6,6 +6,30 @@
 
 # Version Stable
 
+## 26/05/2024
+
+Merci @noodom et @Phpvarious pour la fonction de chargement des JS externes et pour la nouvelle librairie du carousel
+
+Améliorations :
+
+- {Général} Meilleure prise en compte d'un problème lors de la récupération des données (comme le non remplissage d'un élément sur le rooftop solcast)
+- {Général} Les pluparts des paramètres seront maintenant pré-remplis à la création d'un équipement
+- {Commandes} 2 nouvelles commandes permettant de demander au plugin l'heure de démarrage la plus rentable pour mettre en route un appareil (voir documentation et exemple de scénario dans la configuration de l'équipement)
+- {Commandes} "Prévision heure suivante" sera mise à jour chaque heure si le paramétrage de la fréquence de raffraichissement est définie toutes les 2 heures (sans récupération des nouvelles  les données)
+- {Tableau} Les lignes de l'heure, de la prévision et de la production sont en gras pour mieux les distinguer
+- {Tableau} Nouvelle option de paramétrage pour coloriser la ligne de prévision de la même couleur que la fiabilité du jour
+- {Tableau} Affichage des heures sur 2 lignes différentes pour garder une cohérence lorsque le nombre d'heure affichées augmentes avec les beaux jours
+- {Template} Passage en full JS, changement de la librairie du carousel, suppression du timeout pour l'affichage des graphiques
+- {Template mobile} Passage en full JS, changement de la librairie du carousel, suppression du timeout pour l'affichage des graphiques et amélioration du positionnement des éléments
+- {Template mobile} Nouveaux templates pour un accès depuis les mobiles (choix possible d'un complet ou réduit)
+- {Logs} Plus de lisibilité en mode debug
+
+Corrections :
+
+- {Commandes} Ajout de l'unité manquante (Wh) sur la commande "Ecart entre la production et la prévision"
+- {Template} Il pouvait arriver que les graphiques ne s'affichaient pas sur certaines configurations
+- {Template} Non cohérence entre l'affichage du tableau et des courbes de prévision (bug probablement introduit en mars 2024)
+
 ## 10/03/2024
 
 Corrections :
