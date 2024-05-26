@@ -12,6 +12,16 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 21/05/2024
+
+Améliorations / Nouveautés :
+
+- Support Fulls JS sur le widget (pour Jeedom > 4.4)
+
+Corrections :
+
+- Correction des liens vers la doc et le changelog
+
 ## 31/03/2024
 
 Corrections :
