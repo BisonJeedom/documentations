@@ -13,7 +13,7 @@ Dans le détail :
 
 1. Créer votre compte de type "My home PV system only" sur [SOLCAST home PV](https://toolkit.solcast.com.au/register/hobbyist)  
 ![Création](images/SolCast_10_requests_only.png)
-3. Créer votre "Rooftop" et indiquer les données techniques de vos panneaux photovoltaïque (Latitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
+2. Créer votre "Rooftop" et indiquer les données techniques de vos panneaux photovoltaïques (Latitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
     - Latitude et Longitude au format x.y. Exemple pour la tour Eiffel : Latitude : 48.85823 / Longitude : 2.29457
     - AC Capacity (inverters) à exprimer en kW : indiquer la puissance maximum que peut produire votre installation dans la réalité (max vos courbes en été)
     - DC Capacity (modules) à exprimer en kW : indiquer la puissance crête théorique de votre installation
@@ -96,7 +96,7 @@ La quantité de commandes dépend du nombre de jours de prévision choisi dans l
 Les commandes issues de SOLCAST sont les commandes de ce type : "Jour 0 entre 10h et 11h"  
 Ces commandes contiennent la quantité de Wh prévue à la fin de la tranche horaire
 
-Le plugin raffraichi les informations chaque heure et 45 minutes (Exemple : 10h45)
+Le plugin rafraichit les informations chaque heure et 45 minutes (Exemple : 10h45)
 
 Lors du cron de 0h45 ces commandes sont remises à zéro
 
@@ -118,11 +118,12 @@ Pour les visualiser dans Jeedom Connect il faut être en version 1.7.1 et active
   En retour le plugin alimentera la commande "Heure de démarrage en fonction de la durée demandée" avec la meilleure heure de démarrage pour maximiser l'utilisation de la production  
   Il est donc possible de planifier, par scénario, le démarrage d'un équipement qui va tourner, par exemple, pendant 90mn, en le faisant au plus tôt et au sommet de la production  
   Si l'heure à laquelle il aurait fallut mettre en service est dépassée, le retour sera l'heure actuelle + 1 minute
+  Note : Un exemple de scénario est disponible dans la configuration de l'équipement
 
 # Utilisation et principes de fonctionnement
 
 L'utilisation principale est de connaitre la quantité de Watts qui sera produite pour chaque tranche horaire afin de prévoir de faire fonctionner des équipements au bon moment (chauffe-eau, pompe, etc ...)  
-Un comparatif entre les données du jour et du lendemain permette de reporter ou d'avancer l'utilisation des équipements consommateurs
+Un comparatif entre les données du jour et du lendemain permet de reporter ou d'avancer l'utilisation des équipements consommateurs
 
 10 requêtes par jour sont possibles sur l'API depuis le 1er décembre 2022.  
 **Attention de définir les paramètres "Début de la prévision" et "Fin de la prévision" en conséquence**  
@@ -133,7 +134,7 @@ Si votre compte permet 50 requêtes il est possible de créer un second rooftop 
 
 ## Configurer plusieurs orientations
 
-Si vous avez la chance d'avoir plusieurs oreintations, il est possible de paramétrer le plugin pour obtenir des données globales.  
+Si vous avez la chance d'avoir plusieurs orientations, il est possible de paramétrer le plugin pour obtenir des données globales.  
 Procédure pour 2 orientations, à adapter si vous en avez plusieurs !  
 
 1. Créer, configurer et activer l'équipement correspondant à l'orientation n°1. Laisser le paramétrage global sur "Aucun" puis sauvegarder
@@ -141,7 +142,7 @@ Procédure pour 2 orientations, à adapter si vous en avez plusieurs !
 2. Créer, configurer et activer l'équipement correspondant à l'orientation n°2. Laisser le paramétrage global sur "Aucun" puis sauvegarder
 ![Création](images/SolCast_EqGlobalVierge.png)
 3. Créer et activer l'équipement global puis sauvegarder (il n'y a pas à indiquer de paramètres)
-4. Parametrer l'équipement global sur les équipements correspondant aux orientations n°1 et n°2 puis sauvegarder
+4. Parametrer l'équipement global sur les équipements correspondants aux orientations n°1 et n°2 puis sauvegarder
 ![Création](images/SolCast_EqFils.png)
 5. Sur l'équipement global, cocher "Equipement Global" puis sauvegarder
 ![Création](images/SolCast_EqGlobal.png)
