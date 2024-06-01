@@ -13,7 +13,7 @@ Dans le détail :
 
 1. Créer votre compte de type "My home PV system only" sur [SOLCAST home PV](https://toolkit.solcast.com.au/register/hobbyist)  
 ![Création](images/SolCast_10_requests_only.png)
-3. Créer votre "Rooftop" et indiquer les données techniques de vos panneaux photovoltaïques (Latitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
+2. Créer votre "Rooftop" et indiquer les données techniques de vos panneaux photovoltaïques (Latitude, Longitude, AC Capacity, DC Capacity, Azimuth et Tilt)
     - Latitude et Longitude au format x.y. Exemple pour la tour Eiffel : Latitude : 48.85823 / Longitude : 2.29457
     - AC Capacity (inverters) à exprimer en kW : indiquer la puissance maximum que peut produire votre installation dans la réalité (max vos courbes en été)
     - DC Capacity (modules) à exprimer en kW : indiquer la puissance crête théorique de votre installation
