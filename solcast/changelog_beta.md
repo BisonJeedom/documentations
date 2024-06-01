@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 01/06/2024
+
+Corrections :
+
+- {Commandes} Le calcul de la meilleure heure de démarrage ne se faisait pas dans le cas d'un équipement global
+
 ## 21/05/2024
 
 Merci @noodom et @Phpvarious pour la fonction de chargement des JS externes et pour la librairie du carousel
@@ -33,7 +39,7 @@ Améliorations :
 
 Corrections :
 
-- {commandes} La commande "Heure de démarrage en fonction de la durée demandée" donnait un résultat une heure trop tard
+- {Commandes} La commande "Heure de démarrage en fonction de la durée demandée" donnait un résultat une heure trop tard
 - {Template mobile} La bascule entre le choix du template mobile complet ou réduit ne se faisait pas correctement
 - {Template mobile} Correction de l'affichage pour éviter un décalage sur certains mobiles
 
