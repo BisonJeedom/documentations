@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 03/06/2024
+
+Corrections :
+
+- {Template} Un warning inaproprié (commande manquante) était loggué dans certaines conditions lors de l'affichage d'un template
+
 ## 01/06/2024
 
 Corrections :
