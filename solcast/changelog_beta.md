@@ -12,6 +12,14 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 17/06/2024
+
+Corrections :
+
+- {Commandes} Parfois, la mise à jour de "Durée de fonctionnement pour retour heure de démarrage" ne déclenchait pas le calcul de la commande "Heure de démarrage en fonction de la durée demandée". Ajout d'une routine de vérification (à xxh45) pour vérifier la présence de la bonne entrée dans les Listener
+- {Moteur} Correction d'un possible "Undefined offset" lié à la mise à jour de la commande "Durée de fonctionnement pour retour heure de démarrage"
+- {Moteur} Correction d'un impact sur les performances lors des déclenchements à xxh45 (récupération prévision) et xxh05 (récupération production)
+
 ## 03/06/2024
 
 Corrections :
