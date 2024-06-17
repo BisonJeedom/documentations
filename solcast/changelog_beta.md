@@ -20,6 +20,13 @@ Corrections :
 - {Moteur} Correction d'un possible "Undefined offset" lié à la mise à jour de la commande "Durée de fonctionnement pour retour heure de démarrage"
 - {Moteur} Correction d'un impact sur les performances lors des déclenchements à xxh45 (récupération prévision) et xxh05 (récupération production)
 
+Améliorations :
+
+- La commande "Durée de fonctionnement pour retour heure de démarrage" peut maintenant prendre 2 paramètres : durée;puissance
+durée : pas de changement, la durée de fonctionnement de l'appareil
+puissance : la puissance de l'appareil
+Ainsi suivant les prévisions il pourrait ne pas y avoir d'horaire répondant à ces conditions. Dans ce cas la commande "Heure de démarrage en fonction de la durée demandée" pendra la valeur "no proposal"
+
 ## 03/06/2024
 
 Corrections :
