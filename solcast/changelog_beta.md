@@ -12,6 +12,17 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 02/07/2024
+
+Améliorations :
+
+- Compatibilité Debian 12.5 et PHP 8.2
+
+Corrections :
+
+- {Moteur} Correction "Undefined offset" durant l'affichage du template
+- {Moteur} Sécurisation de l'enregistrement des données du mois qui pouvait provoquait un dysfonctionnement dans l'affichage des graphiques (plus de graphique en barres, etc ...)
+
 ## 17/06/2024
 
 Corrections :
