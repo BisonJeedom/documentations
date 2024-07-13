@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 13/07/2023
+
+Améliorations :
+
+- Compatibilité Debian 12.5 et PHP 8.2
+
 ## 30/04/2023
 
 Améliorations :
