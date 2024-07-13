@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 13/07/2024
+
+Améliorations :
+
+- {Moteur} Possibilité de faire un écrêtage de la puissance maximum pour un équipement global
+- {Moteur} La commande Index de production supporte à présent un calcul donc par exemple #[obj][eq][commande1]# + #[obj2][eq2][commande2]#
+
+Corrections :
+
+- {Moteur} Correction "Unsupported operand types" durant l'affichage du template
+- {Moteur} Correction "Argument #2 must be of type array" dans une fonction
+
 ## 02/07/2024
 
 Améliorations :
