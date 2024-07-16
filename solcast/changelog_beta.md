@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 16/07/2024
+
+Améliorations :
+
+- {Moteur} Ajout de statistiques sur l'écrêtage d'un équipement global
+
 ## 13/07/2024
 
 Améliorations :
