@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 25/07/2024
+
+Corrections :
+
+- {Commandes} Suppression de la commande JSON SolCast qui était surtout utilisée par le developpeur et qui pose problème dans les futures versions de Jeedom à cause de la longeur de la chaine (merci @m.georgein)
+
 ## 16/07/2024
 
 Améliorations :
