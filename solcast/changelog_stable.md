@@ -6,6 +6,32 @@
 
 # Version Stable
 
+## 26/07/2024
+
+Améliorations :
+
+- Compatibilité Debian 12.5 et PHP 8.2
+- La commande "Durée de fonctionnement pour retour heure de démarrage" peut maintenant prendre 2 paramètres : durée;puissance
+durée : pas de changement, la durée de fonctionnement de l'appareil
+puissance : la puissance de l'appareil
+Ainsi suivant les prévisions il pourrait ne pas y avoir d'horaire répondant à ces conditions. Dans ce cas la commande "Heure de démarrage en fonction de la durée demandée" pendra la valeur "no proposal"
+- {Moteur} Possibilité de faire un écrêtage de la puissance maximum pour un équipement global
+- {Moteur} Ajout de statistiques sur l'écrêtage d'un équipement global
+- {Moteur} La commande Index de production supporte à présent un calcul donc par exemple #[obj][eq][commande1]# + #[obj2][eq2][commande2]#
+- {Moteur} Sécurisation de l'enregistrement des données du mois qui pouvait provoquait un dysfonctionnement dans l'affichage des graphiques (plus de graphique en barres, etc ...)
+
+Corrections :
+
+- {Commandes} Le calcul de la meilleure heure de démarrage ne se faisait pas dans le cas d'un équipement global
+- {Commandes} Parfois, la mise à jour de "Durée de fonctionnement pour retour heure de démarrage" ne déclenchait pas le calcul de la commande "Heure de démarrage en fonction de la durée demandée". Ajout d'une routine de vérification (à xxh45) pour vérifier la présence de la bonne entrée dans les Listener
+- {Commandes} Suppression de la commande JSON SolCast qui était surtout utilisée par le developpeur et qui pose problème dans les futures versions de Jeedom à cause de la longeur de la chaine (merci @m.georgein)
+- {Moteur} Correction d'un impact sur les performances lors des déclenchements à xxh45 (récupération prévision) et xxh05 (récupération production)
+- {Moteur} Correction "Undefined offset" durant l'affichage du template
+- {Moteur} Correction "Unsupported operand types" durant l'affichage du template
+- {Moteur} Correction d'un possible "Undefined offset" lié à la mise à jour de la commande "Durée de fonctionnement pour retour heure de démarrage"
+- {Moteur} Correction "Argument #2 must be of type array" dans une fonction
+- {Template} Un warning inaproprié (commande manquante) était loggué dans certaines conditions lors de l'affichage d'un template
+
 ## 26/05/2024
 
 Merci @noodom et @Phpvarious pour la fonction de chargement des JS externes et pour la nouvelle librairie du carousel
