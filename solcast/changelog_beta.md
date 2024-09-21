@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 21/09/2024
+
+Améliorations :
+
+- Ajout d'un contrôle à 3h05 pour vérifier que la valeur de production n'est pas trop élevée (> 500 W) car pouvant montrer un problème
+
+Corrections :
+
+- {Moteur} "Unsupported operand types" dans certains cas sous Debian 12
+- {Moteur} "Unsupported operand types: string * int" en cas de commandes de prévisions vides
+- {Moteur} Ajustements sur la déclaration des méthodes
+
 ## 25/07/2024
 
 Corrections :
