@@ -6,6 +6,19 @@
 
 # Version Stable
 
+## 05/10/2024
+
+Améliorations :
+
+- Ajout d'un contrôle à 3h05 pour vérifier que la valeur de production n'est pas trop élevée (> 500 W) car pouvant montrer un problème
+
+Corrections :
+
+- {Moteur} "Unsupported operand types" dans certains cas sous Debian 12
+- {Moteur} "Unsupported operand types: string * int" en cas de commandes de prévisions vides
+- {Moteur} Ajustements sur la déclaration des méthodes
+- {Typo} Correction d'une faute de frappe dans une bulle d'information
+
 ## 26/07/2024
 
 Améliorations :
