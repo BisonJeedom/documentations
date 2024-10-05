@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 05/10/2024
+
+Corrections :
+
+- {Typo} Correction d'une faute de frappe dans une bulle d'information
+
 ## 21/09/2024
 
 Améliorations :
