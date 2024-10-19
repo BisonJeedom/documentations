@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 19/10/2024
+
+Corrections :
+
+- {Moteur} Renvoi incorrect d'une "Heure de démarrage en fonction de la durée demandée" quand la puissance demandée dépassait la prévision
+
 ## 05/10/2024
 
 Corrections :
