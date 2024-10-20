@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 20/10/2024
+
+Corrections :
+
+- {Moteur} Renvoi incorrect d'une "Heure de démarrage en fonction de la durée demandée" quand la puissance demandée dépassait la prévision
+- {Moteur} L'enregistrement d'un équipement créait un nouveau listener alors qu'il existait déjà
+
 ## 19/10/2024
 
 Corrections :
