@@ -12,6 +12,24 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 03/11/2024
+
+Améliorations :
+
+- Modification des options de "Calcul de la meilleure heure de démarrage" :  
+  Réalisable, le plus tôt dans la journée  
+  Réalisable, le plus tard dans la journée  
+  Réalisable pour la plus grande quantité de production  
+- Linéarisation du calcul de la meilleure heure de démarrage popur éviter des palliers suite au travail avec @micheld
+- Modification de la lecture de la Production pour permettre aux index journalier d'être traité de la bonne façon quand l'index n'est pas remis à zéro à minuit mais seulement le matin
+- Possibilité de masquer les informations sur la meilleure heure de démarrage dans le template
+- Ajout d'une option (déselectionné par défaut) pour afficher les informations concernant le template quand les logs sont en debug (afin de réduire la quantité de logs du mode debug)
+
+Corrections :
+
+- {Moteur} Renvoi incorrect d'une "Heure de démarrage en fonction de la durée demandée" (suite au travail avec @micheld)
+- {Typo} Fautes de frappes
+
 ## 20/10/2024
 
 Corrections :
