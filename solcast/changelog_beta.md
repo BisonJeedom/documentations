@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 08/11/2024
+
+Améliorations :
+
+- Refresh à 00h05 pour avoir des infos durant la nuit
+
 ## 03/11/2024
 
 Améliorations :
