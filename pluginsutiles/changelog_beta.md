@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## xx/11/2024
+
+Améliorations :
+
+- Refresh full dans la nuit du dimanche au lundi pour ne pas rater de changements sur les plugins
+- Indication des mots clefs déclencheurs dans l'historique des évènements
+
+Corrections :
+
+- Le nombre de plugins signalés comme nouveau dans les logs n'était pas bon
+- Modification des pastilles qui indiquent si le plugin est stable ou beta pour régler un problème d'alignement au survol de la souris
+
 ## 13/07/2023
 
 Améliorations :
