@@ -12,7 +12,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
-## xx/11/2024
+## 11/11/2024
 
 Améliorations :
 
