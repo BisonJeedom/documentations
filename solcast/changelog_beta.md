@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 12/11/2024
+
+Corrections :
+
+- {Moteur} Correction d'un plantage sur la fonction array_sum() quand l'API n'a pas retourné assez de données
+
 ## 08/11/2024
 
 Améliorations :
