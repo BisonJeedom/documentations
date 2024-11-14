@@ -6,6 +6,27 @@
 
 # Version Stable
 
+## 14/11/2024
+
+Améliorations :
+
+- {Commandes} Modification des options de "Calcul de la meilleure heure de démarrage" :  
+  Réalisable, le plus tôt dans la journée  
+  Réalisable, le plus tard dans la journée  
+  Réalisable pour la plus grande quantité de production  
+- {Commandes} Linéarisation du calcul de la meilleure heure de démarrage pour éviter des paliers suite au travail avec @micheld
+- {Commandes} Modification de la lecture de la Production pour permettre aux index journalier d'être traité de la bonne façon quand l'index n'est pas remis à zéro à minuit mais seulement le matin
+- {Template} Possibilité de masquer les informations sur la meilleure heure de démarrage dans le template
+- {Template} Ajout d'une option (désélectionné par défaut) pour afficher les informations concernant le template quand les logs sont en debug (afin de réduire la quantité de logs du mode debug)
+- {Moteur} Refresh à 00h05 pour voir les courbes durant la nuit
+
+Corrections :
+
+- {Moteur} Renvoi incorrect d'une "Heure de démarrage en fonction de la durée demandée" (suite au travail avec @micheld)
+- {Moteur} L'enregistrement d'un équipement créait un nouveau listener alors qu'il existait déjà
+- {Moteur} Correction d'un plantage sur la fonction array_sum() quand l'API n'a pas retourné assez de données
+- {Typo} Fautes de frappes
+
 ## 05/10/2024
 
 Améliorations :
