@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 17/11/2024
+
+Améliorations :
+
+- Modification du comportement de la case à cochée "Ignorer l'avertissement d'index anormal" pour ne pas avertir quand la PROD est trop élevée (> 500 W) dans la nuit à 3h
+
 ## 14/11/2024
 
 Alignement avec la version stable
