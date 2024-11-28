@@ -6,6 +6,18 @@
 
 # Version Stable
 
+## 28/11/2024
+
+Corrections :
+
+- {Moteur} Correction d'un problème suite à MAJ du 08/11. La récupération des données étaient réalisées en dehors de heures configurées ce qui pose un problème avec 10 requêtes par jour
+- {Template} Correction de l'affichage des barres et courbes qui ne s'affichaient pas dans le cas où des certaines enregistrées étaient vides
+
+Améliorations :
+
+- Modification du comportement de la case à cochée "Ignorer l'avertissement d'index anormal" pour ne pas avertir quand la PROD est trop élevée (> 500 W) dans la nuit à 3h
+- {Moteur} Refresh à 00h05 pour voir les courbes durant la nuit uniquement quand on est en bypass API pour ne pas solliciter "pour rien"
+
 ## 14/11/2024
 
 Améliorations :
