@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 26/11/2024
+
+Corrections :
+
+- {Moteur} Correction d'un problème suite à MAJ du 08/11. La récupération des données étaient réalisées en dehors de heures configurées ce qui pose un problème avec 10 requêtes par jour
+- {Template} Correction de l'affichage des barres et courbes qui ne s'affichaient pas dans le cas où des certaines enregistrées étaient vides
+
 ## 17/11/2024
 
 Améliorations :
