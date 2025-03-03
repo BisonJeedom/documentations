@@ -17,7 +17,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 Corrections :
 
 - {Template} Correction message Undefined variable lors de l'affichage sur mobile
-- {Template} Correction affichage pour le 1er jour du mois sur le graphique "Année"
+- {Template} Correction affichage pour le premier jour du mois sur le graphique "Année"
 
 ## 26/11/2024
 
