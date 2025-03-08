@@ -12,6 +12,10 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 08/03/2025
+
+Nouveautés / Evolutions : Paramètre pour tracer les courbes de prévisions jusqu'au zéro
+
 ## 03/03/2025
 
 Corrections :
