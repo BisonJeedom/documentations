@@ -12,9 +12,17 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 09/03/2025
+
+Corrections :
+
+- {Template} Correction de l'affichage du tableau si le paramètre "Voir les prévisions à zéro en fin de journée" est coché
+
 ## 08/03/2025
 
-Nouveautés / Evolutions : Paramètre pour tracer les courbes de prévisions jusqu'au zéro
+Nouveautés / Evolutions :
+
+- {Template} Paramètre "Voir les prévisions à zéro en fin de journée" permettant de tracer les courbes de prévisions jusqu'au zéro en fin de journée
 
 ## 03/03/2025
 
