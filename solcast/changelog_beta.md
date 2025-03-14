@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 14/03/2025
+
+Nouveautés / Evolutions :
+
+- {Template} Suppression du paramètre "Voir les prévisions à zéro en fin de journée"
+- {Template} Ajout d'un paramètre "Valeur maximum pour l'affichage des prévisions". Ce paramètre permet d'afficher les prévisions jusqu'à la valeur indiquée. Valeur par défaut : 1 (pour ne pas afficher le 0 et conserver l'ancien fonctionnement)
+
 ## 09/03/2025
 
 Corrections :
