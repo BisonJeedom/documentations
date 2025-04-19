@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 19/04/2025
+
+Corrections :
+
+- {Template} Correction sur l'affichage de la dernière heure du tableau suite à l'introduction du paramètre "Valeur maximum pour l'affichage des prévisions"
+- {Moteur} Déclaration et initialisation de variables pour éviter des messages de warning dans le futur (merci à @m.georgein)
+
 ## 14/03/2025
 
 Nouveautés / Evolutions :
