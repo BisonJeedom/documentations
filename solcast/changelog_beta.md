@@ -16,7 +16,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 Corrections :
 
-- {Template} Correction sur l'affichage de la dernière heure du tableau suite à l'introduction du paramètre "Valeur maximum pour l'affichage des prévisions"
+- {Template} Correction sur l'affichage de la dernière heure du tableau suite à l'introduction du paramètre "Valeur minimum pour l'affichage des prévisions"
 - {Moteur} Déclaration et initialisation de variables pour éviter des messages de warning dans le futur (merci à @m.georgein)
 
 ## 14/03/2025
@@ -24,7 +24,7 @@ Corrections :
 Nouveautés / Evolutions :
 
 - {Template} Suppression du paramètre "Voir les prévisions à zéro en fin de journée"
-- {Template} Ajout d'un paramètre "Valeur maximum pour l'affichage des prévisions". Ce paramètre permet d'afficher les prévisions jusqu'à la valeur indiquée. Valeur par défaut : 1 (pour ne pas afficher le 0 et conserver l'ancien fonctionnement)
+- {Template} Ajout d'un paramètre "Valeur minimum pour l'affichage des prévisions". Ce paramètre permet d'afficher les prévisions jusqu'à la valeur indiquée. Valeur par défaut : 1 (pour ne pas afficher le 0 et conserver l'ancien fonctionnement)
 
 ## 09/03/2025
 

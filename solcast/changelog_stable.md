@@ -6,6 +6,18 @@
 
 # Version Stable
 
+## 21/04/2025
+
+Nouveautés / Evolutions :
+
+- {Template} Ajout d'un paramètre "Valeur minimum pour l'affichage des prévisions". Ce paramètre permet d'afficher les prévisions jusqu'à la valeur indiquée. Valeur par défaut : 1 (pour ne pas afficher le 0 et conserver l'ancien fonctionnement)
+
+Corrections :
+
+- {Template} Correction message Undefined variable lors de l'affichage sur mobile
+- {Template} Correction affichage pour le premier jour du mois sur le graphique "Année"
+- {Moteur} Déclaration et initialisation de variables pour éviter des messages de warning dans le futur (merci à @m.georgein)
+
 ## 28/11/2024
 
 Corrections :
