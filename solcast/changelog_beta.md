@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 20/12/2025
+
+Corrections :
+
+{Moteur} Fix Undefined array key
+
+## 15/11/2025
+
+Corrections :
+
+{Moteur} Fix dans l’appel afin d’obtenir à nouveau des données de l’API
+
 ## 19/04/2025
 
 Corrections :
