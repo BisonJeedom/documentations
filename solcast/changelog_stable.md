@@ -6,6 +6,12 @@
 
 # Version Stable
 
+## 15/11/2025
+
+Corrections :
+
+{Moteur} Fix dans l’appel afin d’obtenir à nouveau des données de l’API
+
 ## 21/04/2025
 
 Nouveautés / Evolutions :
