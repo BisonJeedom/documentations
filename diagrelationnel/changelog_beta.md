@@ -24,6 +24,12 @@ Corrections :
 
 - Nettoyage des chaines < et > pour que l'élément qui contient ces caractères puisse s'afficher
 
+## 09/11/2025
+
+Corrections :
+
+- Fix de l’appel à la fonction de refresh à partir de PHP 8 (merci @Noyax37 pour le signalement)
+
 ## 21/05/2024
 
 Améliorations / Nouveautés :
