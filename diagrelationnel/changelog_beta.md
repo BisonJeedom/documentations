@@ -23,6 +23,7 @@ Améliorations / Nouveautés :
 Corrections :
 
 - Nettoyage des chaines < et > pour que l'élément qui contient ces caractères puisse s'afficher
+- Changement de la couleur de fond pour voir les flêches en mode Dark
 
 ## 09/11/2025
 
