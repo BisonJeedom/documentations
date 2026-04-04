@@ -12,6 +12,18 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 04/04/2026
+
+Améliorations / Nouveautés :
+
+- Prise en charge du format natif SVG à la place du PNG (cela permet d'afficher des diagrammes avec plus d'éléments)
+- Refonte totale de la navigation dans le diagramme (déplacement à la souris, zoom, boutons) [Travail fait à l'aide d'une IA]
+- Amélioration de la gestion des erreurs
+
+Corrections :
+
+- Nettoyage des chaines < et > pour que l'élément qui contient ces caractères puisse s'afficher
+
 ## 21/05/2024
 
 Améliorations / Nouveautés :
