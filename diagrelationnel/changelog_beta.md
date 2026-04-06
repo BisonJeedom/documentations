@@ -12,6 +12,16 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 06/04/2026
+
+Améliorations / Nouveautés :
+
+- Ajout d'une option pour changer la direction de l'affichage : Top-Down (par défault) ou Left-Right
+
+Corrections :
+
+- Undefined index: actionCheckCmd dans une fonction
+
 ## 04/04/2026
 
 Améliorations / Nouveautés :
