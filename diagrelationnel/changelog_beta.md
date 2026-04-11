@@ -12,6 +12,15 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 11/04/2026
+
+Améliorations / Nouveautés :
+
+- Suppression des anciens fichiers images lors de la mise à jour (passage de png à svg)
+- Initialisation de la nouvelle commande "Direction" à Top-Down lors de la mise à jour du plugin
+
+Corrections :
+
 ## 06/04/2026
 
 Améliorations / Nouveautés :
