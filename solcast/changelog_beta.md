@@ -16,13 +16,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 Corrections :
 
-{Moteur} Fix Undefined array key "response_status" (PHP > 8))
+{Moteur} Fix Undefined array key "response_status" (PHP > 8)
 
 ## 20/12/2025
 
 Corrections :
 
-{Moteur} Fix Undefined array key (PHP > 8))
+{Moteur} Fix Undefined array key (PHP > 8)
 
 ## 15/11/2025
 
