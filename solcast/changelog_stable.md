@@ -6,6 +6,13 @@
 
 # Version Stable
 
+## 23/05/2026
+
+Corrections :
+
+{Moteur} Fix Undefined array key "response_status" (PHP > 8)
+{Moteur} Fix Undefined array key (PHP > 8)
+
 ## 15/11/2025
 
 Corrections :
