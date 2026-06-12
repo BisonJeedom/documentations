@@ -12,6 +12,13 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 12/06/2026
+
+Corrections :
+
+- Correction de l'exemple de scénario dans un équipement pour indiquer qu'il faut comparer avec le retour 'no proposal' et non plus 0
+- {Moteur} Correction sur les équipements globaux pour qu'à 00h05, les valeurs des prévisions ne soient plus remis à 0 partir de J+1
+
 ## 07/05/2026
 
 Corrections :
