@@ -12,6 +12,17 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 21/07/2026
+
+Corrections :
+
+- {Moteur} Fix de la fonction de recherche de la meilleure heure de démarrage en fonction de la durée demandée lorsque la durée est inférieure à 5 minutes
+
+Nouveautés / Evolutions :
+
+- {Moteur} Au changement de jour, plutôt qu'une remise à zéro des prévision il y aura un déplacement des prévisions (J+3 vers J+2, J+2 vers J+1 et J+1 vers J+0) pour ne pas soliciter l'API mais conserver un affichage et des commandes correctes
+- {Logs} Modification de quelques lignes de logs en mode debug
+
 ## 12/06/2026
 
 Corrections :
@@ -23,19 +34,19 @@ Corrections :
 
 Corrections :
 
-{Moteur} Fix Undefined array key "response_status" (PHP > 8)
+- {Moteur} Fix Undefined array key "response_status" (PHP > 8)
 
 ## 20/12/2025
 
 Corrections :
 
-{Moteur} Fix Undefined array key (PHP > 8)
+- {Moteur} Fix Undefined array key (PHP > 8)
 
 ## 15/11/2025
 
 Corrections :
 
-{Moteur} Fix dans l’appel afin d’obtenir à nouveau des données de l’API
+- {Moteur} Fix dans l’appel afin d’obtenir à nouveau des données de l’API
 
 ## 19/04/2025
 
