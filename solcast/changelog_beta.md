@@ -20,7 +20,7 @@ Corrections :
 
 Nouveautés / Evolutions :
 
-- {Moteur} Au changement de jour, plutôt qu'une remise à zéro des prévision il y aura un déplacement des prévisions (J+3 vers J+2, J+2 vers J+1 et J+1 vers J+0) pour ne pas soliciter l'API mais conserver un affichage et des commandes correctes
+- {Moteur} Au changement de jour, plutôt qu'une remise à zéro des prévisions il y aura un déplacement de celles-ci (J+3 vers J+2, J+2 vers J+1 et J+1 vers J+0) pour ne pas solliciter l'API mais conserver un affichage et des commandes correctes
 - {Logs} Modification de quelques lignes de logs en mode debug
 
 ## 12/06/2026
