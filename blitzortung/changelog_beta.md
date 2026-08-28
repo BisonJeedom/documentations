@@ -12,6 +12,12 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Béta
 
+## 28/08/2026
+
+Corrections :
+
+- Modification de l'adresse pour accéder à la carte sur le site de Blitzortung
+
 ## 26/02/2024
 
 Corrections :
