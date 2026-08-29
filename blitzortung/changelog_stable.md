@@ -6,7 +6,7 @@
 
 # Version Stable
 
-## 28/08/2026
+## 29/08/2026
 
 Corrections :
 
