@@ -6,12 +6,21 @@
 
 # Version Stable
 
+## 28/08/2026
+
+Corrections :
+
+- Modification de l'adresse pour accéder à la carte sur le site de Blitzortung
+- Correction d'erreurs "Undefined offset" qui apparaissent sur Jeedom 4.4
+
 ## 05/11/2023
 
 Améliorations / Ajustements :
+
 - Amélioration du widget mobile pour ajouter le graphique radar. Le choix de l'affichage est à faire dans la configuration de l'équipement (Merci @Spine)
 
 Corrections :
+
 - Passage d'une valeur forcée de type int à l'API car parfois en string (merci @Bad)
 - Un nouvel équipement ne pouvait pas être crée s'il n'y avait pas de coordonnées GPS définies dans la cobnfiguration de Jeedom (Merci @Spine)
 
