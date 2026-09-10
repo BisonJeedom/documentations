@@ -16,6 +16,7 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 Nouveautés / Evolutions :
 
+- {Dépendance} Installation d'une dépendance pour générer un code 2FA
 - {Moteur} Prise en charge du MFA dans le mode de conatournement de l'API
 - {Moteur} Ajout d'une commande "Erreur de récupération des données"
 - {Template} Affichage d'un icône indiquant une potentielle erreur de récupération des données en lien avec la commande "Erreur de récupération des données"
