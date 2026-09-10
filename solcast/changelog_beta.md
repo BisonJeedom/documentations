@@ -12,6 +12,15 @@ Voir le changelog de la version stable ici : [Changelog Stable](https://github.c
 
 # Version Bêta
 
+## 10/09/2026
+
+Nouveautés / Evolutions :
+
+- {Moteur} Prise en charge du MFA dans le mode de conatournement de l'API
+- {Moteur} Ajout d'une commande "Erreur de récupération des données"
+- {Template} Affichage d'un icône indiquant une potentielle erreur de récupération des données en lien avec la commande "Erreur de récupération des données"
+- {Logs} Modification de quelques lignes de logs en mode debug
+
 ## 21/07/2026
 
 Corrections :
