@@ -21,6 +21,7 @@ Nouveautés / Evolutions :
 - {Moteur} Ajout d'une commande "Erreur de récupération des données"
 - {Template} Affichage d'un icône indiquant une potentielle erreur de récupération des données en lien avec la commande "Erreur de récupération des données"
 - {Logs} Modification de quelques lignes de logs en mode debug
+- {DB} Encryption des données sensibles au niveau de la base de données
 
 ## 21/07/2026
 
